@@ -43,8 +43,11 @@
                         sentence. This is a test sentence.</p>
                 </div>
 
-                <form>
-                    <input>
+                <form method="get" action="thankyou.html" id="contactForm">
+                    <label for="name">Name* <input id='name' name='full_name' placeholder='John Smith' required></label>
+                    <label for="email">Email*<input type="email" name="email" placeholder='example@gmail.com' required></label>
+                    <label for="message">Message:<textarea id="message" name="message" placeholder='Write message here'></textarea></label>
+                    <input id='submit' type="submit" value="Send Message">
                 </form>
 
 

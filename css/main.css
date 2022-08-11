@@ -298,17 +298,57 @@ p{
 
 #contactGrid{
     margin:1rem auto;
-    max-width: 1200px;
+    max-width: 1400px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap:5px;
+    grid-gap:10px;
     padding:20px;
 }
 
 form{
     padding:20px;
+
 }
 
+form label{
+    display:block;
+    padding:15px;
+    font-size:20px;
+    line-height: 35px;
+}
+
+form label input, form label textarea{
+    display:block;
+    font-size:18px;
+    padding:.4rem;
+    color:#555;
+    width:100%;
+    max-width: 40rem;
+    border: solid 1px black;
+    border-radius:10px;
+}
+
+form label textarea{
+    height:225px;
+}
+
+#submit{
+    border: solid 1px black;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #B8B8B8;
+    color:#E8Eff1;
+    width:50%;
+    margin-left: 115px;
+    transition:.3s;
+}
+
+
+#submit:hover{
+    background-color: #E8Eff1;
+    color:black;
+}
 
 /***************************************FOOTER*********************************************/
 footer {
@@ -416,6 +456,11 @@ footer {
             height: 15%;
         }
 
+        /*******************************************COMTACT PAGE**********************************/
+        #submit{
+            margin-left: 130px;
+        }
+        
 
 }
 
@@ -499,6 +544,9 @@ footer {
         grid-template-columns: 1fr 1fr;
     }
 
+    #submit{
+        margin-left:175px;
+    }
 
 
 
