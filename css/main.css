@@ -242,17 +242,10 @@ p{
     max-width: 1200px;
     display:grid;
     grid-template-columns: 1fr;
-    grid-gap:5px;
+    grid-gap:10px;
     padding:20px;
 }
 
-
-#skillsPhoto{
-    width:300px;
-    padding:10px;
-    justify-self: center;
-    align-self: center;
-}
 
 #contactBanner{
     background-color: #43B0F1;
@@ -294,6 +287,55 @@ p{
     color:black;
 }
 
+#progressSection{
+    padding:30px;
+}
+
+h4{
+    margin-bottom: 5px;
+}
+.progressBar {
+    width: 100%;
+    background-color: #B8B8B8;
+    text-align: center;
+    color:white;
+  }
+
+#pyBar {
+    width: 70%;
+    height: 30px;
+    background-color: #057DCD;
+}
+
+#cPPBar{
+    width: 30%;
+    height: 30px;
+    background-color: #057DCD;
+}
+
+.htmlBar{
+    width: 70%;
+    height: 30px;
+    background-color: #057DCD;
+}
+
+#cssBar{
+    width: 60%;
+    height: 30px;
+    background-color: #057DCD;
+}
+
+#jsBar{
+    width: 60%;
+    height: 30px;
+    background-color: #057DCD;
+}
+
+#sqlBar{
+    width: 40%;
+    height: 30px;
+    background-color: #057DCD;
+}
 
 
 /************************************************************CONTACT PAGE***********************************************************/
@@ -534,7 +576,7 @@ footer {
         grid-column: 2/3;
         grid-row:1/2;
         position:absolute;
-        top:200px;
+        top:150px;
         right:20px;
     }
 
@@ -554,7 +596,7 @@ footer {
         grid-row:1/2;
     }
 
-    #skillsPhoto{
+    #progressSection{
         grid-column: 1/2;
         grid-row:1/2;
     }
