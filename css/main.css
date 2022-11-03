@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&display=swap'); */
 
 header, main, footer{
     min-width: 325px;
@@ -105,7 +105,7 @@ main{
     font-size:20px;
 }
 
-p{
+p, ul{
     line-height: 30px;
     padding:5px;
 }
@@ -195,7 +195,8 @@ p{
 
 #projectPhoto, #skillPhoto, #contactPhoto{
     /* grid-row:1/2; */
-    width:100%;
+    width:95%;
+    margin: 10px;
 }
 
 #projectSummary, #contactSummary, #skillsSummary{
@@ -265,7 +266,7 @@ p{
     padding:10px;
 }
 
-#aboutContactBtn{
+#aboutContactBtn, #seeResumeBtn{
     text-decoration: none;
     text-align: center;
     justify-self: center;
@@ -287,6 +288,15 @@ p{
     color:black;
 }
 
+#seeResumeBtn{
+    background-color:#43B0F1;
+
+}
+
+#seeResumeBtn:hover{
+    background-color: #B8B8B8;
+}
+
 #progressSection{
     padding:30px;
 }
@@ -301,40 +311,33 @@ h4{
     color:white;
   }
 
-#pyBar {
-    width: 70%;
+  #pyBar, #cPPBar, .htmlBar, #cssBar,#jsBar, #sqlBar{
     height: 30px;
-    background-color: #057DCD;
+    background-color: green;
+  }
+#pyBar {
+    width: 60%;
+
 }
 
 #cPPBar{
-    width: 30%;
-    height: 30px;
-    background-color: #057DCD;
+    width: 40%;
 }
 
 .htmlBar{
-    width: 70%;
-    height: 30px;
-    background-color: #057DCD;
+    width: 60%;
 }
 
 #cssBar{
     width: 60%;
-    height: 30px;
-    background-color: #057DCD;
 }
 
 #jsBar{
     width: 60%;
-    height: 30px;
-    background-color: #057DCD;
 }
 
 #sqlBar{
     width: 40%;
-    height: 30px;
-    background-color: #057DCD;
 }
 
 
@@ -351,52 +354,6 @@ h4{
     grid-gap:10px;
     padding:20px;
 }
-
-form{
-    padding:20px;
-
-}
-
-form label{
-    display:block;
-    padding:15px;
-    font-size:20px;
-    line-height: 35px;
-}
-
-form label input, form label textarea{
-    display:block;
-    font-size:18px;
-    padding:.4rem;
-    color:#555;
-    width:100%;
-    max-width: 40rem;
-    border: solid 1px black;
-    border-radius:10px;
-}
-
-form label textarea{
-    height:225px;
-}
-
-#submit{
-    border: solid 1px black;
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 18px;
-    background-color: #B8B8B8;
-    color:#E8Eff1;
-    width:50%;
-    margin-left: 115px;
-    transition:.3s;
-}
-
-
-#submit:hover{
-    background-color: #E8Eff1;
-    color:black;
-}
-
 
 /**************************************THANK YOU AND 404 PAGES*****************************/
 #errorSection, #thanksSection{
@@ -440,7 +397,7 @@ footer {
 }
 
 .linkedin:hover{
-    background-color: #057DCD;
+    background-color: #E8Eff1;
 }
 
 
