@@ -2,7 +2,8 @@
 
 header, main, footer{
     min-width: 325px;
-    margin: 1rem auto;
+    /* margin: 1rem auto; */
+
 }
 
 header, footer{
@@ -76,8 +77,11 @@ transition: 0.3s;
 }
 
 nav a:hover{
-    color:#057DCD;
+    border-radius: 10px;
+    background-color: #E8Eff1;
+    /* color:#057DCD; */
     transition-duration: 0.2s;
+    padding:15px;
 }
 .navigation{
     list-style: none;
@@ -112,18 +116,22 @@ p, ul{
 
 /**************Welcome Section***************/
 #introSection{
-    background-color: #43B0F1
+    background-color: #1E3D58;
     
 }
-
+#welcomeSection
+{
+    color:white;
+}
 
 #introBox{
     margin: 1rem auto;
+    margin-top: 0;
     max-width: 1200px;
     display: grid;
     grid-template-columns: 1fr;
     grid-gap:5px;
-    background-color: #43B0F1;
+    background-color: #1E3D58;
     padding:20px;
 }
 
@@ -213,7 +221,7 @@ p, ul{
     padding:50px;
 }
 #selfSummarySection{
-    background-color: #43B0F1;
+    background-color: #057DCD;
 }
 
 #aboutBox{
@@ -222,7 +230,7 @@ p, ul{
     display:grid;
     grid-template-columns: 1fr;
     grid-gap:5px;
-    background-color: #43B0F1;
+    background-color: #057DCD;
     padding:20px;
 }
 
@@ -249,11 +257,12 @@ p, ul{
 
 
 #contactBanner{
-    background-color: #43B0F1;
+    background-color: #057DCD;
 }
 
 #contactBox{
-    background-color: #43B0F1;
+    background-color: #057DCD;
+    /* color:white; */
     margin: 1rem auto;
     max-width: 1200px;
     display:grid;
@@ -264,6 +273,7 @@ p, ul{
 
 #contactSection{
     padding:10px;
+    background-color: #057DCD;
 }
 
 #aboutContactBtn, #seeResumeBtn{
@@ -271,7 +281,7 @@ p, ul{
     text-align: center;
     justify-self: center;
     align-self: center;
-    border: 1px solid black;
+    border: 2px solid black;
     color:black;
     font-size: 18px;
     border-radius: 15px;
@@ -343,7 +353,7 @@ h4{
 
 /************************************************************CONTACT PAGE***********************************************************/
 #contactArea{
-    background-color: #43B0F1;
+    background-color: #057DCD;
 }
 
 #contactGrid{
