@@ -365,6 +365,103 @@ h4{
     padding:20px;
 }
 
+/************************************************************PROJECT PAGE***********************************************************/
+#projectSelectionBox
+{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+select{
+    padding:10px;
+    width: 40%;
+}
+
+#displayProjectBox{
+    padding:5px;
+}
+
+#projectPage{
+    background-color: #B8B8B8;
+    max-width: 1500px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 50px;
+
+
+}
+
+#projectOverview
+{
+    background-color: #B8B8B8;
+    text-align: center;
+    border-radius: 50px 50px 0px 0px;
+}
+
+#projectLayoutOne, #projectLayoutTwo, #GitHubBanner
+{
+    display:grid;
+    grid-template-columns: 1fr;
+
+}
+
+#GitHubBanner
+{
+    border-radius: 0px 0px 50px 50px;
+    justify-items: center;
+    padding:20px;
+}
+
+
+.layoutStyleOne
+{
+    background-color: #057DCD;
+}
+
+.layoutStyleTwo
+{
+    background-color: #43B0F1;
+}
+
+
+#projectLayoutContentOne, #projectLayoutContentTwo{
+    padding:30px;
+
+}
+
+#projectPhotoOneImg, #projectPhotoTwoImg{
+    width:400px;
+    padding:10px;
+    justify-self: center;
+}
+
+#GitHubBtn{
+    text-decoration: none;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    border: 2px solid black;
+    color:black;
+    font-size: 18px;
+    border-radius: 15px;
+    padding:20px;
+    background-color: #B8B8B8;
+    color:black;
+    width:30%;
+    height: 30%;
+    transition:0.3s;
+
+}
+
+#GitHubBtn:hover{
+    background-color: #E8Eff1;
+    color:black;
+}
+
+
+
+
+
 /**************************************THANK YOU AND 404 PAGES*****************************/
 #errorSection, #thanksSection{
     background-color: #43B0F1;
@@ -494,6 +591,11 @@ footer {
         #submit{
             margin-left: 130px;
         }
+
+            /************************************************************PROJECT PAGE***********************************************************/
+    select{
+        width: 35%;
+    }
         
 
 }
@@ -582,6 +684,39 @@ footer {
         margin-left:175px;
     }
 
+    /************************************************************PROJECT PAGE***********************************************************/
+    select{
+        width: 30%;
+    }
+#projectLayoutOne, #projectLayoutTwo, #GitHubBanner
+{
+    grid-template-columns: 1fr 1fr;
+    
+}
 
+#projectPhotoOneImg
+{
+    grid-column: 2/3;
+    grid-row:1/2;
+}
+
+
+#projectPhotoTwoImg
+{
+    grid-column: 1/2;
+    grid-row:1/2;
+}
+
+#projectLayoutContentTwo
+{
+    grid-column: 2/3;
+    grid-row:1/2;
+}
+
+#projectPhotoOneImg, #projectPhotoTwoImg{
+    width:500px;
+    padding:10px;
+    justify-self: center;
+}
 
 }

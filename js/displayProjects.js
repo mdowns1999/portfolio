@@ -1,6 +1,7 @@
 'use strict'
 let data = {};
-const requestURL = 'https://mdowns1999.github.io/wdd230/final_project_wdd230/js/temple_data.json';
+const requestURL = 'https://mdowns1999.github.io/portfolioMikeDowns/js/projectInfo.json';
+//const requestURL = 'https://mdowns1999.github.io/wdd230/final_project_wdd230/js/temple_data.json';
 
 /****************************************
  * MAIN:
@@ -28,7 +29,8 @@ function getJsonInfo()
     })
     .then(function (jsonObject){
         //console.table(jsonObject)//See the data appears
-        data = jsonObject["data"];
+        data = jsonObject["projects"];
+        console.table(data)
 
         //Set the page to the first project on the list
         displayProject(data[1]);
@@ -47,10 +49,10 @@ function projectSelection()
 
     item.innerHTML = `<h2> Project Selection</h2>
     <p>Select a Project you would like to view.</p>
-    <select name='project_dropdown' onchange='addProjects(this.value);'> 
-    <option value = 0 >Choose a Project</option>
-    <option value= 1 >Chess</option>
-    <option value= 2 >Orbit</option> </select>`;
+    <select id="selectDropDown" name='project_dropdown' onchange='addProjects(this.value);'> 
+    <option value = -1>Choose a Project</option>
+    <option value= 0 >Chess</option>
+    <option value= 1 >Orbit</option> </select>`;
 
     selectBox.appendChild(item);
 }
@@ -63,16 +65,17 @@ function addProjects(projectValue)
 {
     //Clear any content there already
     removeProject();
+    //displayProject(data[projectValue]);
 
     //This will make sure the option value is not 0.  
     //If it is, we will just set the value to 1 instead.
-    if(projectValue != 0)
+    if(projectValue != -1)
     {
         displayProject(data[projectValue]);
     }
     else
     {
-        displayProject(data[1]);
+        displayProject(data[0]);
     }
 
 }
@@ -89,10 +92,38 @@ function displayProject(project)
     //Generate the HTML for the project
         displayBox.innerHTML = 
         `
-        <section>
-        <h1>${project.name}</h1>
+        <div id="projectPage">
 
-        </section>
+        <div id="projectOverview">
+            <h1 id="projectHeading">${project.name}</h1>
+            <p class = "projectContent">${project.overview}</p>
+        </div>
+
+        <div id="projectLayoutOne" class="layoutStyleOne">
+            <div id="projectLayoutContentOne">
+                <h2>Challenges:</h2>
+                <p class = "projectContent">${project.challenges}</p>
+            </div>
+
+            <img id ="projectPhotoOneImg" src="${project.projectPic1}" alt = "${project.name} Project Photo">
+        </div>
+
+        <div id="projectLayoutTwo">
+            <div id="projectLayoutContentTwo">
+                <h2>Design:</h2>
+                <p class = "projectContent">${project.design}</p>
+            </div>
+
+            <img id ="projectPhotoTwoImg" src="${project.projectPic2}" alt = "${project.name} Project Photo">
+        </div>
+
+        <div id="GitHubBanner" class="layoutStyleOne">
+            <p class = "projectContent">Check out the Source Code on GitHub!:  </p>
+            <a id="GitHubBtn" href="${project.GitHubLink}" alt="GitHub Source Code Link">GitHub Code</a>
+        </div>
+
+
+        </div>
         `;
 
 }
