@@ -6,7 +6,8 @@
             "challenges": "This is some challenegs I faced",
             "projectPic2": "images/testPhoto.jpg",
             "design": "Design sentence here",
-            "GitHubLink": "Link"
+            "GitHubLink": "Link",
+            "style": "layoutStyleTwo"
 
 
         },
@@ -17,7 +18,8 @@
             "challenges": "This is some challenges I faced",
             "projectPic2": "images/testPhoto.jpg",
             "design": "Design sentence here",
-            "GitHubLink": "Link"
+            "GitHubLink": "Link",
+            "style": "layoutStyleOne"
 
 
         }

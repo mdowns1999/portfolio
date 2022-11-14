@@ -29,7 +29,7 @@ function getJsonInfo()
     })
     .then(function (jsonObject){
         //console.table(jsonObject)//See the data appears
-        data = jsonObject["projects"];
+        data = jsonObject["data"];
         console.table(data)
 
         //Set the page to the first project on the list
