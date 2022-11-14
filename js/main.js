@@ -39,23 +39,23 @@ let nav = document.querySelector('.navigation');
     ham.addEventListener('click', () => {nav.classList.toggle('responsive')});
 
 
-    var i = 0;
-    function move() {
-      if (i == 0) {
-        i = 1;
-        var elem = document.querySelector("myBar");
-        var width = 1;
-        var id = setInterval(frame, 15);
-        function frame() {
-          if (width >= 70) {
-            clearInterval(id);
-            i = 0;
-          } else {
-            width++;
-            elem.style.width = width + "%";
-          }
-        }
-      }
-    }
+    // var i = 0;
+    // function move() {
+    //   if (i == 0) {
+    //     i = 1;
+    //     var elem = document.querySelector("myBar");
+    //     var width = 1;
+    //     var id = setInterval(frame, 15);
+    //     function frame() {
+    //       if (width >= 70) {
+    //         clearInterval(id);
+    //         i = 0;
+    //       } else {
+    //         width++;
+    //         elem.style.width = width + "%";
+    //       }
+    //     }
+    //   }
+    // }
 
-move()
+//move()
