@@ -1,9 +1,9 @@
 {
     "data": [{
             "name": "Chess",
-            "overview": "This is a description of Chess",
-            "projectPic1": "images/testPhoto.jpg",
-            "challenges": "This is some challenegs I faced",
+            "overview": "This project was one that I did in a team.  The goal was to make a fully functional chess program.  In this program we were to follow all the rules of chess, meaning, every piece moves exactly as it should.  We also implimented special moves like castling, enpassant, and promotion (though in this version you always promote to a queen.",
+            "projectPic1": "images/chessPic.png",
+            "challenges": "While programming this project, we came accross some interesting challenges.  The biggest issue was pointers.  In our game, we initiallized the board with 64 objects.  Each object was a pointer to the actual object stored in memory.  ",
             "projectPic2": "images/testPhoto.jpg",
             "design": "Design sentence here",
             "GitHubLink": "Link",
@@ -20,6 +20,7 @@
             "design": "Design sentence here",
             "GitHubLink": "Link",
             "style": "layoutStyleOne"
+
 
 
         }

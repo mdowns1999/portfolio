@@ -88,7 +88,7 @@ function displayProject(project)
 {
     //Get the Box we want to display the page
     let displayBox = document.getElementById('displayProjectBox');
-
+    console.log(project.style)
     //Generate the HTML for the project
         displayBox.innerHTML = 
         `
@@ -99,7 +99,7 @@ function displayProject(project)
             <p class = "projectContent">${project.overview}</p>
         </div>
 
-        <div id="projectLayoutOne" class="layoutStyleOne">
+        <div id="projectLayoutOne" class="${project.style}">
             <div id="projectLayoutContentOne">
                 <h2>Challenges:</h2>
                 <p class = "projectContent">${project.challenges}</p>
@@ -117,7 +117,7 @@ function displayProject(project)
             <img id ="projectPhotoTwoImg" src="${project.projectPic2}" alt = "${project.name} Project Photo">
         </div>
 
-        <div id="GitHubBanner" class="layoutStyleOne">
+        <div id="GitHubBanner" class="${project.style}">
             <p class = "projectContent">Check out the Source Code on GitHub!:  </p>
             <a id="GitHubBtn" href="${project.GitHubLink}" alt="GitHub Source Code Link">GitHub Code</a>
         </div>
