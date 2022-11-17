@@ -398,7 +398,7 @@ select{
     border-radius: 50px 50px 0px 0px;
 }
 
-#projectLayoutOne, #projectLayoutTwo, #GitHubBanner
+#projectBoxOne, #projectBoxTwo, #GitHubBanner
 {
     display:grid;
     grid-template-columns: 1fr;
@@ -420,16 +420,16 @@ select{
 
 .layoutStyleTwo
 {
-    background-color: red;
+    background-color: #43B0F1;
 }
 
 
-#projectLayoutContentOne, #projectLayoutContentTwo{
+#layoutOneContentOne, #layoutOneContentTwo{
     padding:30px;
 
 }
 
-#projectPhotoOneImg, #projectPhotoTwoImg{
+#projectOnePhotoOneImg, #projectOnePhotoTwoImg, #projectTwoPhotoOneImg, #projectTwoPhotoTwoImg{
     width:400px;
     padding:10px;
     justify-self: center;
@@ -688,35 +688,62 @@ footer {
     select{
         width: 30%;
     }
-#projectLayoutOne, #projectLayoutTwo, #GitHubBanner
-{
-    grid-template-columns: 1fr 1fr;
-    
-}
 
-#projectPhotoOneImg
-{
-    grid-column: 2/3;
-    grid-row:1/2;
-}
+    #projectBoxOne, #projectBoxTwo, #GitHubBanner
+    {
+        grid-template-columns: 1fr 1fr;
+        
+    }
+
+    #projectOnePhotoOneImg
+    {
+        grid-column: 2/3;
+        grid-row:1/2;
+    }
 
 
-#projectPhotoTwoImg
-{
-    grid-column: 1/2;
-    grid-row:1/2;
-}
+    #projectOnePhotoTwoImg
+    {
+        grid-column: 1/2;
+        grid-row:1/2;
+    }
 
-#projectLayoutContentTwo
-{
-    grid-column: 2/3;
-    grid-row:1/2;
-}
+    #layoutOneContentTwo
+    {
+        grid-column: 2/3;
+        grid-row:1/2;
+    }
 
-#projectPhotoOneImg, #projectPhotoTwoImg{
-    width:500px;
-    padding:10px;
-    justify-self: center;
-}
+    #projectOnePhotoOneImg, #projectOnePhotoTwoImg, #projectTwoPhotoOneImg, #projectTwoPhotoTwoImg{
+        width:500px;
+        padding:10px;
+        justify-self: center;
+    }
+
+    #projectTwoPhotoOneImg
+    {
+        grid-column: 1/2;
+        grid-row:1/2;
+    }
+
+
+    #layoutTwoContentOne
+    {
+        grid-column: 2/3;
+        grid-row:1/2;
+    }
+
+    #projectTwoPhotoTwoImg
+    {
+        grid-column: 2/3;
+        grid-row:1/2;
+    }
+
+
+    #layoutTwoContentTwo
+    {
+        grid-column: 1/2;
+        grid-row:1/2;
+    }
 
 }

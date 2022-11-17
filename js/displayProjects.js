@@ -33,7 +33,7 @@ function getJsonInfo()
         console.table(data)
 
         //Set the page to the first project on the list
-        displayProject(data[1]);
+        displayProjectLayoutOne(data[0]);
     })
 
 }
@@ -71,11 +71,18 @@ function addProjects(projectValue)
     //If it is, we will just set the value to 1 instead.
     if(projectValue != -1)
     {
-        displayProject(data[projectValue]);
+        if(projectValue % 2 === 0)
+        {
+            displayProjectLayoutOne(data[projectValue]);
+        }
+        else
+        {
+            displayProjectLayoutTwo(data[projectValue]);
+        }
     }
     else
     {
-        displayProject(data[0]);
+        displayProjectLayoutOne(data[0]);
     }
 
 }
@@ -84,7 +91,7 @@ function addProjects(projectValue)
  * DISPLAY PROJECT:
  * Display the Page with a project
  * **************************************/
-function displayProject(project)
+function displayProjectLayoutOne(project)
 {
     //Get the Box we want to display the page
     let displayBox = document.getElementById('displayProjectBox');
@@ -99,25 +106,69 @@ function displayProject(project)
             <p class = "projectContent">${project.overview}</p>
         </div>
 
-        <div id="projectLayoutOne" class="${project.style}">
-            <div id="projectLayoutContentOne">
+        <div id="projectBoxOne" class="layoutStyleOne">
+            <div id="layoutOneContentOne">
                 <h2>Challenges:</h2>
                 <p class = "projectContent">${project.challenges}</p>
             </div>
 
-            <img id ="projectPhotoOneImg" src="${project.projectPic1}" alt = "${project.name} Project Photo">
+            <img id ="projectOnePhotoOneImg" src="${project.projectPic1}" alt = "${project.name} Project Photo">
         </div>
 
-        <div id="projectLayoutTwo">
-            <div id="projectLayoutContentTwo">
+        <div id="projectBoxTwo">
+            <div id="layoutOneContentTwo">
                 <h2>Design:</h2>
                 <p class = "projectContent">${project.design}</p>
             </div>
 
-            <img id ="projectPhotoTwoImg" src="${project.projectPic2}" alt = "${project.name} Project Photo">
+            <img id ="projectOnePhotoTwoImg" src="${project.projectPic2}" alt = "${project.name} Project Photo">
         </div>
 
-        <div id="GitHubBanner" class="${project.style}">
+        <div id="GitHubBanner" class="layoutStyleOne">
+            <p class = "projectContent">Check out the Source Code on GitHub!:  </p>
+            <a id="GitHubBtn" href="${project.GitHubLink}" alt="GitHub Source Code Link">GitHub Code</a>
+        </div>
+
+
+        </div>
+        `;
+
+}
+
+function displayProjectLayoutTwo(project)
+{
+    //Get the Box we want to display the page
+    let displayBox = document.getElementById('displayProjectBox');
+    console.log(project.style)
+    //Generate the HTML for the project
+    displayBox.innerHTML = 
+        `
+        <div id="projectPage">
+
+        <div id="projectOverview">
+            <h1 id="projectHeading">${project.name}</h1>
+            <p class = "projectContent">${project.overview}</p>
+        </div>
+
+        <div id="projectBoxOne" class="layoutStyleTwo">
+            <div id="layoutTwoContentOne">
+                <h2>Challenges:</h2>
+                <p class = "projectContent">${project.challenges}</p>
+            </div>
+
+            <img id ="projectTwoPhotoOneImg" src="${project.projectPic1}" alt = "${project.name} Project Photo">
+        </div>
+
+        <div id="projectBoxTwo">
+            <div id="layoutTwoContentTwo">
+                <h2>Design:</h2>
+                <p class = "projectContent">${project.design}</p>
+            </div>
+
+            <img id ="projectTwoPhotoTwoImg" src="${project.projectPic2}" alt = "${project.name} Project Photo">
+        </div>
+
+        <div id="GitHubBanner" class="layoutStyleTwo">
             <p class = "projectContent">Check out the Source Code on GitHub!:  </p>
             <a id="GitHubBtn" href="${project.GitHubLink}" alt="GitHub Source Code Link">GitHub Code</a>
         </div>

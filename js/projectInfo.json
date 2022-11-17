@@ -6,8 +6,7 @@
             "challenges": "While programming this project, we came accross some interesting challenges.  The biggest issue was pointers.  In our game, we initiallized the board with 64 objects.  Each object was a pointer to the actual object stored in memory.  ",
             "projectPic2": "images/testPhoto.jpg",
             "design": "Design sentence here",
-            "GitHubLink": "Link",
-            "style": "layoutStyleTwo"
+            "GitHubLink": "Link"
 
 
         },
@@ -18,10 +17,7 @@
             "challenges": "This is some challenges I faced",
             "projectPic2": "images/testPhoto.jpg",
             "design": "Design sentence here",
-            "GitHubLink": "Link",
-            "style": "layoutStyleOne"
-
-
+            "GitHubLink": "Link"
 
         }
 
