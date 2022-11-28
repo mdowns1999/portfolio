@@ -170,7 +170,7 @@ function displayProjectLayoutTwo(project)
 
         <div id="GitHubBanner" class="layoutStyleTwo">
             <p class = "projectContent">Check out the Source Code on GitHub!:  </p>
-            <a id="GitHubBtn" href="${project.GitHubLink}" alt="GitHub Source Code Link">GitHub Code</a>
+            <a id="GitHubBtn" href="${project.GitHubLink}" alt="GitHub Source Code Link" target="_blank">GitHub Code</a>
         </div>
 
 

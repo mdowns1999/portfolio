@@ -396,6 +396,12 @@ select{
     background-color: #B8B8B8;
     text-align: center;
     border-radius: 25px 25px 0px 0px;
+    padding:20px;
+}
+
+.projectContent
+{
+    text-align: left;
 }
 
 #projectBoxOne, #projectBoxTwo, #GitHubBanner
