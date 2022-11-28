@@ -6,7 +6,7 @@
             "challenges": "While programming this project, we came across some interesting challenges.  The biggest issue we faced was pointers.  In our game, we initialized the board with an array of 64 pointers to 64 objects.    As each piece moved, we had to make sure to swap the pointers.  In the case of a capture, we had to make sure we deleted the pointer that was captured and fill it with a blank piece pointer.  We did this because strange bugs would occur if we did not delete our unused pointers.  Another challenge we faced was figuring out how to make each individual piece move in its own way.  I suggested to the group of using a structure that has each of the possible moves the piece could go.  This structure helped immensely sense we had pieces like the knight that move in L shapes.",
             "projectPic2": "images/chessDesignPic.png",
             "design": "The design of this program was very interesting to do.  The only interesting part of the program was the Piece Class with all of its children’s classes.  We tried making the parent class, Piece, handle most of the functions that each of its children would need.  We did have a view virtual function however since certain pieces had certain things it had to do.  For example, each piece had to know how to draw itself.  In the design document, you will see some of the public methods of the parent class implemented again in the child class.  This is mainly just due to the fact we were learning inheritance in C++ and wanted to make sure it was clear that the parent class methods are used by the children.",
-            "GitHubLink": "github.com/mdowns1999/Chess-Program-Repo"
+            "GitHubLink": "www.github.com/mdowns1999/Chess-Program-Repo"
 
 
         },
@@ -15,10 +15,57 @@
             "overview": "This is a description of Orbit",
             "projectPic1": "images/orbitScreenShot.png",
             "challenges": "This is some challenges I faced",
-            "projectPic2": "images/testPhoto.jpg",
+            "projectPic2": "images/orbitDesignPic.png",
             "design": "Design sentence here",
-            "GitHubLink": "github.com/mdowns1999/Orbit-Simulator"
+            "GitHubLink": "www.github.com/mdowns1999/Orbit-Simulator"
+        },
+        {
+            "name": "Lunar Lander",
+            "overview": "This is a description of Lunar Lander",
+            "projectPic1": "images/orbitScreenShot.png",
+            "challenges": "This is some challenges I faced",
+            "projectPic2": "images/orbitDesignPic.png",
+            "design": "Design sentence here",
+            "GitHubLink": "www.github.com/mdowns1999/Orbit-Simulator"
+        },
+        {
+            "name": "Artillery",
+            "overview": "This is a description of Artillery",
+            "projectPic1": "images/orbitScreenShot.png",
+            "challenges": "This is some challenges I faced",
+            "projectPic2": "images/orbitDesignPic.png",
+            "design": "Design sentence here",
+            "GitHubLink": "www.github.com/mdowns1999/Orbit-Simulator"
+        },
 
+        {
+            "name": "Commerce Website",
+            "overview": "This is a description of Commerce Website",
+            "projectPic1": "images/orbitScreenShot.png",
+            "challenges": "This is some challenges I faced",
+            "projectPic2": "images/orbitDesignPic.png",
+            "design": "Design sentence here",
+            "GitHubLink": "www.github.com/mdowns1999/Orbit-Simulator"
+
+
+        },
+        {
+            "name": "Five Day Forecast Website",
+            "overview": "This is a description of Five Day Forecast Website",
+            "projectPic1": "images/orbitScreenShot.png",
+            "challenges": "This is some challenges I faced",
+            "projectPic2": "images/orbitDesignPic.png",
+            "design": "Design sentence here",
+            "GitHubLink": "www.github.com/mdowns1999/Orbit-Simulator"
+        },
+        {
+            "name": "Data Structures Presentation",
+            "overview": "This is a description of Data Structures Presentation",
+            "projectPic1": "images/orbitScreenShot.png",
+            "challenges": "This is some challenges I faced",
+            "projectPic2": "images/orbitDesignPic.png",
+            "design": "Design sentence here",
+            "GitHubLink": "www.github.com/mdowns1999/Orbit-Simulator"
         }
 
     ]

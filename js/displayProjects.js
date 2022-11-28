@@ -52,7 +52,14 @@ function projectSelection()
     <select id="selectDropDown" name='project_dropdown' onchange='addProjects(this.value);'> 
     <option value = -1>Choose a Project</option>
     <option value= 0 >Chess</option>
-    <option value= 1 >Orbit</option> </select>`;
+    <option value= 1 >Orbit</option>
+    <option value= 2 >Lunar Lander</option> 
+    <option value= 3 >Artillery</option> 
+    <option value= 4 >Commerce Website</option> 
+    <option value= 5 >5 Day Forecast Website</option>
+    <option value= 6 >Data Structures Presentation</option>  
+    
+    </select>`;
 
     selectBox.appendChild(item);
 }
@@ -176,6 +183,8 @@ function displayProjectLayoutTwo(project)
 
         </div>
         `;
+
+        console.log(project.GitHubLink);
 
 }
 
