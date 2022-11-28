@@ -1,7 +1,7 @@
 {
     "data": [{
             "name": "Chess",
-            "overview": "This chess project was one that I did in a team.  The goal was to make a fully functional chess program.  This program needed to follow all the rules of chess, meaning, every piece moves exactly as it should.  We also implemented special moves like castling, empassant, and promotion (though in this version you always promote to a queen).  Most of the code we wrote was our own.  The code that was not ours was the interact and Open GL Classes and libraries.",
+            "overview": "This chess project was one that I did in a team.  The goal was to make a fully functional chess program.  This program needed to follow all the rules of chess, meaning, every piece moves exactly as it should.  We also implemented special moves like castling, empassant, and promotion (though in this version you always promote to a queen).  Most of the code we wrote was our own.  The code that was not ours was the interact and Open GL Classes and libraries.  Those were written by James Helfrich, a professor at BYU-I.",
             "projectPic1": "images/chessPic.png",
             "challenges": "While programming this project, we came across some interesting challenges.  The biggest issue we faced was pointers.  In our game, we initialized the board with an array of 64 pointers to 64 objects.    As each piece moved, we had to make sure to swap the pointers.  In the case of a capture, we had to make sure we deleted the pointer that was captured and fill it with a blank piece pointer.  We did this because strange bugs would occur if we did not delete our unused pointers.  Another challenge we faced was figuring out how to make each individual piece move in its own way.  I suggested to the group of using a structure that has each of the possible moves the piece could go.  This structure helped immensely sense we had pieces like the knight that move in L shapes.",
             "projectPic2": "images/chessDesignPic.png",
@@ -21,21 +21,12 @@
         },
         {
             "name": "Lunar Lander",
-            "overview": "This is a description of Lunar Lander",
+            "overview": "The Lunar Lander program is a simple game that simulates the Apollo 11 Moon Landing.  The program allows the player to move the Lunar Lander and try to land it on a blue platform on the moons surface.  The player must deal with gravity and a limited amount of fuel to accomplish this task.  This project was done in a team. ",
             "projectPic1": "images/orbitScreenShot.png",
-            "challenges": "This is some challenges I faced",
+            "challenges": "Some of the challenges we faced were implementing dome of the physics of the game.  We had to implement gravity, velocity, acceleration, and other formulas.  The main reason this was difficult was due to the fact that both team members were new to the C++ language and mostly had experience with programming in Python.  Once these problems were overcome, the normal challenges of learning a new language occurred like language syntax.  ",
             "projectPic2": "images/orbitDesignPic.png",
-            "design": "Design sentence here",
-            "GitHubLink": "https://github.com/mdowns1999/Orbit-Simulator"
-        },
-        {
-            "name": "Artillery",
-            "overview": "This is a description of Artillery",
-            "projectPic1": "images/orbitScreenShot.png",
-            "challenges": "This is some challenges I faced",
-            "projectPic2": "images/orbitDesignPic.png",
-            "design": "Design sentence here",
-            "GitHubLink": "https://github.com/mdowns1999/Orbit-Simulator"
+            "design": "The design for this project was fairly straightforward.  We separated each class into its own noun.  We also tried to apply principles of encapsulation like fidelity and abstraction.",
+            "GitHubLink": "https://github.com/mickfish1996/LunarModule"
         },
 
         {
@@ -45,18 +36,9 @@
             "challenges": "This is some challenges I faced",
             "projectPic2": "images/orbitDesignPic.png",
             "design": "Design sentence here",
-            "GitHubLink": "https://github.com/mdowns1999/Orbit-Simulator"
+            "GitHubLink": "https://github.com/mdowns1999/wdd230"
 
 
-        },
-        {
-            "name": "Five Day Forecast Website",
-            "overview": "This is a description of Five Day Forecast Website",
-            "projectPic1": "images/orbitScreenShot.png",
-            "challenges": "This is some challenges I faced",
-            "projectPic2": "images/orbitDesignPic.png",
-            "design": "Design sentence here",
-            "GitHubLink": "https://github.com/mdowns1999/Orbit-Simulator"
         },
         {
             "name": "Data Structures Presentation",
@@ -65,7 +47,7 @@
             "challenges": "This is some challenges I faced",
             "projectPic2": "images/orbitDesignPic.png",
             "design": "Design sentence here",
-            "GitHubLink": "https://github.com/mdowns1999/Orbit-Simulator"
+            "GitHubLink": "https://github.com/mdowns1999/data_structures_presentation"
         }
 
     ]
