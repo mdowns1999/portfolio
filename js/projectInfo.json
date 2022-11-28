@@ -1,11 +1,11 @@
 {
     "data": [{
             "name": "Chess",
-            "overview": "This project was one that I did in a team.  The goal was to make a fully functional chess program.  In this program we were to follow all the rules of chess, meaning, every piece moves exactly as it should.  We also implimented special moves like castling, enpassant, and promotion (though in this version you always promote to a queen.",
+            "overview": "This chess project was one that I did in a team.  The goal was to make a fully functional chess program.  This program needed to follow all the rules of chess, meaning, every piece moves exactly as it should.  We also implemented special moves like castling, empassant, and promotion (though in this version you always promote to a queen).  Most of the code we wrote was our own.  The code that was not ours was the interact and Open GL Classes and libraries.",
             "projectPic1": "images/chessPic.png",
-            "challenges": "While programming this project, we came accross some interesting challenges.  The biggest issue was pointers.  In our game, we initiallized the board with 64 objects.  Each object was a pointer to the actual object stored in memory.  ",
-            "projectPic2": "images/testPhoto.jpg",
-            "design": "Design sentence here",
+            "challenges": "While programming this project, we came across some interesting challenges.  The biggest issue we faced was pointers.  In our game, we initialized the board with an array of 64 pointers to 64 objects.    As each piece moved, we had to make sure to swap the pointers.  In the case of a capture, we had to make sure we deleted the pointer that was captured and fill it with a blank piece pointer.  We did this because strange bugs would occur if we did not delete our unused pointers.  Another challenge we faced was figuring out how to make each individual piece move in its own way.  I suggested to the group of using a structure that has each of the possible moves the piece could go.  This structure helped immensely sense we had pieces like the knight that move in L shapes.",
+            "projectPic2": "images/chessDesignPic.png",
+            "design": "The design of this program was very interesting to do.  The only interesting part of the program was the Piece Class with all of its children’s classes.  We tried making the parent class, Piece, handle most of the functions that each of its children would need.  We did have a view virtual function however since certain pieces had certain things it had to do.  For example, each piece had to know how to draw itself.  In the design document, you will see some of the public methods of the parent class implemented again in the child class.  This is mainly just due to the fact we were learning inheritance in C++ and wanted to make sure it was clear that the parent class methods are used by the children.",
             "GitHubLink": "Link"
 
 
