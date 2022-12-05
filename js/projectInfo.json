@@ -45,7 +45,7 @@
             "overview": "This project is a simple presentation on three kinds of data structures. The purpose of this is to demonstrate my understanding of these data structures and show that I can explain it to another individual. The presentation contains diagrams and explanations about each data structure. I also provided code examples, practice problems, and solutions to those practice problems.",
             "projectPic1": "images/dataStructuresPic.png",
             "challenges": "One challenge I faced with this project was trying to find a simple way to explain each data structure in a basic and simplified way.  How I did this was I relied on using a lot of examples, diagrams, and charts to help make each data structure easy to understand.",
-            "projectPic2": "images/dataStructuresLayout.png",
+            "projectPic2": "images/dataStructureLayout.png",
             "design": "This project was interesting to design.  I mainly used markdown files with code examples within each example.  I then tried to make it where I provided starting code as well as code solutions to any practice problems I used for each presentation.",
             "GitHubLink": "https://github.com/mdowns1999/data_structures_presentation"
         }
