@@ -12,17 +12,17 @@
         },
         {
             "name": "Oribt",
-            "overview": "This is a description of Orbit",
-            "projectPic1": "images/orbitScreenShot.png",
-            "challenges": "This is some challenges I faced",
+            "overview": "This project is a simulation of satellites orbiting the earth.  This program allows you to fly a ship and destroy floating junk in space.  If a satellite breaks during the game, then it is the players job to go and destroy it before anything else breaks.  This program uses basic physics.  The orbiting of the satellites is not as precise as it could be since we are using simple Algebra and Geometry, but it is close enough that it looks almost like the real thing.",
+            "projectPic1": "images/orbitPic.png",
+            "challenges": "One of the challenges of this code was figuring out how to get the bullets that are spawned in to spawn away from the ship.  To solve this, our team made the starting position of the bullet the same as the ship.  We then calculated and added velocity to each bullet so that the bullets spawn just far enough away from the ship so they do not collide instantly.",
             "projectPic2": "images/orbitDesignPic.png",
-            "design": "Design sentence here",
+            "design": "Designing this project was very interesting.  We tried utilizing the Satellite Parent class by making it handle most of the work load for the child classes. Specifically, we tried making the parent class handle the general movement of a satellite as well as have general methods that the child classes might use often.",
             "GitHubLink": "https://github.com/mdowns1999/Orbit-Simulator"
         },
         {
             "name": "Lunar Lander",
             "overview": "The Lunar Lander program is a simple game that simulates the Apollo 11 Moon Landing.  The program allows the player to move the Lunar Lander and try to land it on a blue platform on the moons surface.  The player must deal with gravity and a limited amount of fuel to accomplish this task.  This project was done in a team. ",
-            "projectPic1": "images/orbitScreenShot.png",
+            "projectPic1": "images/landerPic.png",
             "challenges": "Some of the challenges we faced were implementing dome of the physics of the game.  We had to implement gravity, velocity, acceleration, and other formulas.  The main reason this was difficult was due to the fact that both team members were new to the C++ language and mostly had experience with programming in Python.  Once these problems were overcome, the normal challenges of learning a new language occurred like language syntax.  ",
             "projectPic2": "images/orbitDesignPic.png",
             "design": "The design for this project was fairly straightforward.  We separated each class into its own noun.  We also tried to apply principles of encapsulation like fidelity and abstraction.",
@@ -31,22 +31,22 @@
 
         {
             "name": "Commerce Website",
-            "overview": "This is a description of Commerce Website",
-            "projectPic1": "images/orbitScreenShot.png",
-            "challenges": "This is some challenges I faced",
-            "projectPic2": "images/orbitDesignPic.png",
-            "design": "Design sentence here",
+            "overview": "This website is a mock of a chamber of commerce business in Rexburg.  The purpose of building this website was to practice using HTML, CSS, and JavaScript.  Each of the different pages practices different things relating to JavaScript.  A few of these topics are lazy loading, reading a JSON file, building HTML forms, and using an API.   ",
+            "projectPic1": "images/chamberWebsitePic.png",
+            "challenges": "One of the main challenges I faced was learning how to read and  use a JSON file on my web page.  Since using JavaScript to fetch it for me was new, I had to research a few things of documentation to understand how the process worked.  Now that it works, I used it to bring in images and also used it to work with my API.",
+            "projectPic2": "images/websiteDesign.png",
+            "design": "The design of this website was pretty basic.  I mainly used grid to form simple layouts.  The main focus was on practicing and using JavaScript in different ways.  ",
             "GitHubLink": "https://github.com/mdowns1999/wdd230"
 
 
         },
         {
             "name": "Data Structures Presentation",
-            "overview": "This is a description of Data Structures Presentation",
-            "projectPic1": "images/orbitScreenShot.png",
-            "challenges": "This is some challenges I faced",
-            "projectPic2": "images/orbitDesignPic.png",
-            "design": "Design sentence here",
+            "overview": "This project is a simple presentation on three kinds of data structures. The purpose of this is to demonstrate my understanding of these data structures and show that I can explain it to another individual. The presentation contains diagrams and explanations about each data structure. I also provided code examples, practice problems, and solutions to those practice problems.",
+            "projectPic1": "images/dataStructuresPic.png",
+            "challenges": "One challenge I faced with this project was trying to find a simple way to explain each data structure in a basic and simplified way.  How I did this was I relied on using a lot of examples, diagrams, and charts to help make each data structure easy to understand.",
+            "projectPic2": "images/dataStructuresLayout.png",
+            "design": "This project was interesting to design.  I mainly used markdown files with code examples within each example.  I then tried to make it where I provided starting code as well as code solutions to any practice problems I used for each presentation.",
             "GitHubLink": "https://github.com/mdowns1999/data_structures_presentation"
         }
 

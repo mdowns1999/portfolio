@@ -59,3 +59,5 @@ let nav = document.querySelector('.navigation');
     // }
 
 //move()
+
+//https://wireframe.cc/XI1pbh

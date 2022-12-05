@@ -326,20 +326,20 @@ h4{
     background-color: green;
   }
 #pyBar {
-    width: 60%;
+    width: 70%;
 
 }
 
 #cPPBar{
-    width: 40%;
+    width: 60%;
 }
 
 .htmlBar{
-    width: 60%;
+    width: 70%;
 }
 
 #cssBar{
-    width: 60%;
+    width: 70%;
 }
 
 #jsBar{
@@ -347,7 +347,7 @@ h4{
 }
 
 #sqlBar{
-    width: 40%;
+    width: 50%;
 }
 
 
