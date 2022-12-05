@@ -183,7 +183,6 @@ function displayProjectLayoutTwo(project)
         `;
 
         console.log(project.GitHubLink);
-
 }
 
 /****************************************
