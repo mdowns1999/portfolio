@@ -1,6 +1,6 @@
 'use strict'
 let data = {};
-const requestURL = 'https://mdowns1999.github.io/portfolioMikeDowns/js/projectInfo.json';
+const requestURL = 'https://mdowns1999.github.io/portfolio/js/projectInfo.json';
 //const requestURL = 'https://mdowns1999.github.io/wdd230/final_project_wdd230/js/temple_data.json';
 
 /****************************************
