@@ -53,9 +53,12 @@ function projectSelection()
     <option value = -1>Choose a Project</option>
     <option value= 0 >Chess</option>
     <option value= 1 >Orbit</option>
-    <option value= 2 >Lunar Lander</option> 
-    <option value= 3 >Commerce Website</option> 
-    <option value= 4 >Data Structures Presentation</option>  
+    <option value= 2 >Lunar Lander</option>
+    <option value= 3 >PHPMOTORS</option>
+    <option value= 4 >5 Day Weather API</option> 
+    <option value= 5 >BYUI Home Page Rebuild</option>
+    <option value= 6 >Data Structures Presentation</option>
+    <option value= 7 >Commerce Website</option>  
     
     </select>`;
 
