@@ -1,0 +1,40 @@
+/************************************************************CONTACT PAGE***********************************************************/
+#contactArea{
+    background-color: #057DCD;
+}
+
+#contactGrid{
+    margin:1rem auto;
+    max-width: 1400px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap:10px;
+    padding:20px;
+}
+
+/**************************************************Tablet View******************************************/
+@media screen and (min-width: 760px) {
+        /*******************************************COMTACT PAGE**********************************/
+        #submit{
+            margin-left: 130px;
+        }
+
+
+}
+
+
+/**************************************************LapTop View******************************************/
+@media screen and (min-width: 1160px) {
+
+
+    /*******************************************CONTACT PAGE**********************************/
+    #contactGrid{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #submit{
+        margin-left:175px;
+    }
+
+
+}

@@ -1,0 +1,26 @@
+/***************************************FOOTER*********************************************/
+footer {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color:black;
+    padding:10px;
+    font-size:16px;
+}
+
+#copyRight{
+    grid-column: 2/3;
+    text-align:center;
+}
+
+.linkedin {
+    width:25px;
+    margin-top: 10px;
+    grid-column: 3/4;
+    margin-left: 100px;
+    transition:0.3s;
+}
+
+.linkedin:hover{
+    background-color: #E8Eff1;
+}
+

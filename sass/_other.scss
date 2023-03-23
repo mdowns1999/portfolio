@@ -1,0 +1,773 @@
+/**************************************THANK YOU AND 404 PAGES*****************************/
+#errorSection, #thanksSection{
+    background-color: #43B0F1;
+    text-align: center;
+    padding:30px;
+}
+
+#errorBox, #thanksBox{
+    max-width: 1200px;
+    margin:1rem auto;
+    text-align: center;
+    padding:20px;
+    background-color: #43B0F1;
+}
+
+
+
+// /* @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&display=swap'); */
+
+// header, main, footer{
+//     min-width: 325px;
+//     /* margin: 1rem auto; */
+
+// }
+
+// header, footer{
+//     background-color: #B8B8B8;
+// }
+
+// header, footer, h1, h2, h3 {
+//     font-family:'Nunito', sans-serif;
+// }
+
+// h1, h2{
+//     text-align: center;
+// }
+
+// body{
+//     background-color: #E8Eff1;
+// }
+
+// /**************************************************HEADER******************************************/
+// header{
+//     display:grid;
+//     grid-template-columns: 1fr 2fr 1fr;
+//     justify-items:center;
+//     font-size:18px;
+//     margin-top:0px;
+// }
+
+// #websiteLogo{
+//     grid-column:1/3;
+//     grid-row:1/2;
+//     width:200px;
+//     padding:10px;
+//     justify-items:center;
+//     margin-top:20px;
+// }
+
+// /**************************************************NAVIGATION******************************************/
+// #ham
+// {
+//     grid-column: 3/4;
+//     grid-row:1/2;
+//     align-self:center;
+//     text-decoration: none;
+//     font-size:25px;
+//     color:#E8Eff1;
+//     transition: 0.3s;
+//     padding:10px;
+// }
+
+// #ham:hover{
+//     color:rgb(65, 65, 65);
+//     transition-duration: 0.2s;
+// }
+
+
+// nav
+// {
+//     grid-column: 2/3;
+//     grid-row:2/3;
+// }
+
+// nav a
+// {
+// display:block;
+// text-decoration: none;
+// color: black;
+// padding:10px;
+// margin-right:30px;
+// text-align:center;
+// transition: 0.3s;
+// }
+
+// nav a:hover{
+//     border-radius: 10px;
+//     background-color: #E8Eff1;
+//     /* color:#057DCD; */
+//     transition-duration: 0.2s;
+//     padding:15px;
+// }
+// .navigation{
+//     list-style: none;
+//     display: flex;
+//     flex-direction: column;
+//     justify-self: center;
+// }
+
+// .navigation li {
+//     display:none;
+// }
+
+// .responsive li {
+//     display:block;
+//     transition: 0.3s;
+// } 
+
+
+
+
+// /***************************************HOME PAGE*********************************************/
+
+// main{
+//     font-family:'Roboto', sans-serif;
+//     font-size:20px;
+// }
+
+// p, ul{
+//     line-height: 30px;
+//     padding:5px;
+// }
+
+// /**************Welcome Section***************/
+// #introSection{
+//     background-color: #1E3D58;
+    
+// }
+// #welcomeSection
+// {
+//     color:white;
+// }
+
+// #introBox{
+//     margin: 1rem auto;
+//     margin-top: 0;
+//     max-width: 1200px;
+//     display: grid;
+//     grid-template-columns: 1fr;
+//     grid-gap:5px;
+//     background-color: #1E3D58;
+//     padding:20px;
+// }
+
+// #profilePhoto{
+//     width:275px;
+//     justify-self: center;
+//     margin-top: 15px;
+// }
+
+// #welcomeBtnBox{
+//     display: grid;
+//     grid-template-columns: 1fr 1fr;
+//     grid-gap:5px;
+//     justify-items: center;
+// }
+
+// .welcomeBtns{
+//     text-decoration: none;
+//     text-align: center;
+//     border: 2px solid black;
+//     color:black;
+//     font-size: 18px;
+//     border-radius: 15px;
+//     padding:20px;
+//     background-color: #B8B8B8;
+//     color:black;
+//     width:60%;
+//     height: 30%;
+//     transition:0.3s;
+// }
+
+// .welcomeBtns:hover{
+//     background-color: #E8Eff1;
+//     color:black;
+// }
+
+// /***************Card Section**************/
+
+// #cardLayout{
+//     margin: 1rem auto;
+//     max-width: 1400px;
+//     display:grid;
+//     grid-template-columns: 1fr;
+//     grid-gap:10px;
+// }
+
+// .cardSection{
+//     border: 1px solid black;
+//     color:#E8Eff1;
+//     background-color: #1E3D58;
+//     font-size: 18px;
+// }
+
+// .cardSection:hover{
+//     box-shadow: 0 0 8px rgb(89, 89, 89);
+//     opacity: 1;
+// }
+
+// .cardBtn{
+//     text-decoration: none;
+//     color:#E8Eff1;
+//     transition: 0.3s;
+// }
+
+// .cardBtn:hover{
+//     color:#B8B8B8;
+//     transition-duration: 0.3s;
+// }
+
+// #projectPhoto, #skillPhoto, #contactPhoto{
+//     /* grid-row:1/2; */
+//     width:95%;
+//     margin: 10px;
+// }
+
+// #projectSummary, #contactSummary, #skillsSummary{
+//     /* grid-row:2/3; */
+//     padding:15px;
+// }
+
+
+// /************************************************************ABOUT PAGE***********************************************************/
+// .pageBanner{
+//     background-color: #1E3D58;
+//     text-align: center;
+//     color:#E8Eff1;
+//     padding:50px;
+// }
+// #selfSummarySection{
+//     background-color: #057DCD;
+// }
+
+// #aboutBox{
+//     margin: 1rem auto;
+//     max-width: 1200px;
+//     display:grid;
+//     grid-template-columns: 1fr;
+//     grid-gap:5px;
+//     background-color: #057DCD;
+//     padding:20px;
+// }
+
+
+// #aboutPhoto{
+//     width:300px;
+//     padding:10px;
+//     justify-self: center;
+//     align-self: center;
+// }
+
+
+
+// #skillsBox{
+//     margin: 1rem auto;
+//     margin-top:100px;
+//     margin-bottom:100px;
+//     max-width: 1200px;
+//     display:grid;
+//     grid-template-columns: 1fr;
+//     grid-gap:10px;
+//     padding:20px;
+// }
+
+
+// #contactBanner{
+//     background-color: #057DCD;
+// }
+
+// #contactBox{
+//     background-color: #057DCD;
+//     /* color:white; */
+//     margin: 1rem auto;
+//     max-width: 1200px;
+//     display:grid;
+//     grid-template-columns: 1fr;
+//     grid-gap:5px;
+//     padding:20px;
+// }
+
+// #contactSection{
+//     padding:10px;
+//     background-color: #057DCD;
+// }
+
+// #aboutContactBtn, #seeResumeBtn{
+//     text-decoration: none;
+//     text-align: center;
+//     justify-self: center;
+//     align-self: center;
+//     border: 2px solid black;
+//     color:black;
+//     font-size: 18px;
+//     border-radius: 15px;
+//     padding:20px;
+//     background-color: #B8B8B8;
+//     color:black;
+//     width:40%;
+//     height: 30%;
+//     transition:0.3s;
+// }
+
+// #aboutContactBtn:hover{
+//     background-color: #E8Eff1;
+//     color:black;
+// }
+
+// #seeResumeBtn{
+//     background-color:#43B0F1;
+
+// }
+
+// #seeResumeBtn:hover{
+//     background-color: #B8B8B8;
+// }
+
+// #progressSection{
+//     padding:30px;
+// }
+
+// h4{
+//     margin-bottom: 5px;
+// }
+// .progressBar {
+//     width: 100%;
+//     background-color: #B8B8B8;
+//     text-align: center;
+//     color:white;
+//   }
+
+//   #pyBar, #cPPBar, .htmlBar, #cssBar,#jsBar, #sqlBar{
+//     height: 30px;
+//     background-color: green;
+//   }
+// #pyBar {
+//     width: 70%;
+
+// }
+
+// #cPPBar{
+//     width: 60%;
+// }
+
+// .htmlBar{
+//     width: 70%;
+// }
+
+// #cssBar{
+//     width: 70%;
+// }
+
+// #jsBar{
+//     width: 60%;
+// }
+
+// #sqlBar{
+//     width: 50%;
+// }
+
+
+/************************************************************CONTACT PAGE***********************************************************/
+// #contactArea{
+//     background-color: #057DCD;
+// }
+
+// #contactGrid{
+//     margin:1rem auto;
+//     max-width: 1400px;
+//     display: grid;
+//     grid-template-columns: 1fr;
+//     grid-gap:10px;
+//     padding:20px;
+// }
+
+// /************************************************************PROJECT PAGE***********************************************************/
+// #projectSelectionBox
+// {
+//     text-align: center;
+//     margin-bottom: 50px;
+// }
+
+// select{
+//     padding:10px;
+//     width: 40%;
+// }
+
+// #displayProjectBox{
+//     padding:5px;
+// }
+
+// #projectPage{
+//     background-color: #B8B8B8;
+//     max-width: 1500px;
+//     margin: 0 auto;
+//     margin-bottom: 10px;
+//     border-radius: 25px;
+
+
+// }
+
+// #projectOverview
+// {
+//     background-color: #B8B8B8;
+//     text-align: center;
+//     border-radius: 25px 25px 0px 0px;
+//     padding:20px;
+// }
+
+// .projectContent
+// {
+//     text-align: left;
+// }
+
+// #projectBoxOne, #projectBoxTwo, #GitHubBanner
+// {
+//     display:grid;
+//     grid-template-columns: 1fr;
+//     padding:20px;
+
+// }
+
+// #GitHubBanner
+// {
+//     border-radius: 0px 0px 25px 25px;
+//     justify-items: center;
+//     padding:20px;
+// }
+
+
+// .layoutStyleOne
+// {
+//     background-color: #057DCD;
+// }
+
+// .layoutStyleTwo
+// {
+//     background-color: #43B0F1;
+// }
+
+
+// #layoutOneContentOne, #layoutOneContentTwo{
+//     padding:30px;
+
+// }
+
+// #projectOnePhotoOneImg, #projectOnePhotoTwoImg, #projectTwoPhotoOneImg, #projectTwoPhotoTwoImg{
+//     width:400px;
+//     padding:10px;
+//     justify-self: center;
+// }
+
+// #GitHubBtn{
+//     text-decoration: none;
+//     text-align: center;
+//     justify-self: center;
+//     align-self: center;
+//     border: 2px solid black;
+//     color:black;
+//     font-size: 18px;
+//     border-radius: 15px;
+//     padding:20px;
+//     background-color: #B8B8B8;
+//     color:black;
+//     width:30%;
+//     height: 30%;
+//     transition:0.3s;
+
+// }
+
+// #GitHubBtn:hover{
+//     background-color: #E8Eff1;
+//     color:black;
+// }
+
+
+
+
+
+// /**************************************THANK YOU AND 404 PAGES*****************************/
+// #errorSection, #thanksSection{
+//     background-color: #43B0F1;
+//     text-align: center;
+//     padding:30px;
+// }
+
+// #errorBox, #thanksBox{
+//     max-width: 1200px;
+//     margin:1rem auto;
+//     text-align: center;
+//     padding:20px;
+//     background-color: #43B0F1;
+// }
+
+
+
+
+
+// /***************************************FOOTER*********************************************/
+// footer {
+//     display:grid;
+//     grid-template-columns: 1fr 1fr 1fr;
+//     color:black;
+//     padding:10px;
+//     font-size:16px;
+// }
+
+// #copyRight{
+//     grid-column: 2/3;
+//     text-align:center;
+// }
+
+// .linkedin {
+//     width:25px;
+//     margin-top: 10px;
+//     grid-column: 3/4;
+//     margin-left: 100px;
+//     transition:0.3s;
+// }
+
+// .linkedin:hover{
+//     background-color: #E8Eff1;
+// }
+
+
+
+
+// /**************************************************Tablet View******************************************/
+// @media screen and (min-width: 760px) {
+
+//     /*******************************************HEADER**********************************/
+//     header{
+//         grid-template-columns: 1fr 1fr 1fr 1fr;
+//         justify-items:center;
+//         font-size:18px;
+//     }
+
+//     #websiteLogo{
+//         grid-column: 1/3;
+//     }
+    
+//         nav {
+//             grid-column: 4/5;
+//             grid-row:1/2;
+//         }
+    
+//         /*******************************************Navigation**********************************/
+//         .navigation {
+//             flex-direction: row;
+//             padding:10px;
+//         }
+    
+//         .navigation li {
+//             display:block;
+//         }
+
+//         #ham {
+//             display:none;
+//             grid-row:2/3;
+//         }
+
+//         .linkedin {
+//             width:25px;
+//             margin-top: 10px;
+//             grid-column: 3/4;
+//             margin-left: 200px;
+//         }
+
+//         /*******************************************HOME PAGE**********************************/
+
+
+//         #welcomeSection{
+//             grid-row:1/2;
+//         }
+
+//         .welcomeBtns{
+//             width:40%;
+//             font-size: 20px;
+//         }
+
+//         #profilePhoto {
+//             width:325px;
+//             grid-row:3/4;
+//             padding:20px;
+//         }
+
+//         #cardLayout{
+//             grid-template-columns: 1fr 1fr;
+//         }
+
+//         /*******************************************ABOUT PAGE**********************************/
+//         #aboutPhoto{
+//             width:400px;
+//         }
+
+//         #contactBox{
+//             grid-template-columns: 1fr 1fr;
+//         }
+
+//         #aboutContactBtn{
+//             width:30%;
+//             height: 15%;
+//         }
+
+//         /*******************************************COMTACT PAGE**********************************/
+//         #submit{
+//             margin-left: 130px;
+//         }
+
+//             /************************************************************PROJECT PAGE***********************************************************/
+//     select{
+//         width: 35%;
+//     }
+        
+
+// }
+
+
+// /**************************************************LapTop View******************************************/
+// @media screen and (min-width: 1160px) {
+
+//     /*******************************************HEADER**********************************/
+//     #websiteLogo{
+//         grid-column: 1/2;
+//     }
+
+//     .linkedin {
+//         margin-left: 300px;
+//     }
+
+//     /*******************************************HOME**********************************/
+//     #introBox{
+//         grid-template-columns: 1fr 1fr;
+//         position: relative;
+//     }
+//     .welcomeBtns{
+//         width:40%;
+//         height: 15%;
+//     }
+
+//     #profilePhoto {
+//         width:325px;
+//         grid-column: 2/3;
+//         grid-row:1/3;
+//     }
+
+//     #cardLayout{
+//         grid-template-columns: 1fr 1fr 1fr;
+//         grid-gap:10px;
+//     }
+
+//     /*******************************************ABOUT PAGE**********************************/
+//     #aboutBox{
+//         grid-template-columns: 1fr 1fr;
+//         position:relative;
+//     }
+
+//     #aboutPhoto{
+//         width:500px;
+//         grid-column: 2/3;
+//         grid-row:1/2;
+//         position:absolute;
+//         top:150px;
+//         right:20px;
+//     }
+
+//     #aboutSection{
+//         grid-column: 1/2;
+//         grid-row:1/2;
+//     }
+
+//     #skillsBox{
+//         grid-template-columns: 1fr 1fr;
+//         margin-top:200px;
+//         margin-bottom:200px;
+//     }
+
+//     #skillsSection{
+//         grid-column: 2/3;
+//         grid-row:1/2;
+//     }
+
+//     #progressSection{
+//         grid-column: 1/2;
+//         grid-row:1/2;
+//     }
+
+//     #contactSection{
+//         grid-column: 1/2;
+//         grid-row:1/2;
+//     }
+
+//     /*******************************************CONTACT PAGE**********************************/
+//     #contactGrid{
+//         grid-template-columns: 1fr 1fr;
+//     }
+
+//     #submit{
+//         margin-left:175px;
+//     }
+
+//     /************************************************************PROJECT PAGE***********************************************************/
+//     select{
+//         width: 30%;
+//     }
+
+//     #projectBoxOne, #projectBoxTwo, #GitHubBanner
+//     {
+//         grid-template-columns: 1fr 1fr;
+        
+//     }
+
+//     #projectOnePhotoOneImg
+//     {
+//         grid-column: 2/3;
+//         grid-row:1/2;
+//     }
+
+
+//     #projectOnePhotoTwoImg
+//     {
+//         grid-column: 1/2;
+//         grid-row:1/2;
+//     }
+
+//     #layoutOneContentTwo
+//     {
+//         grid-column: 2/3;
+//         grid-row:1/2;
+//     }
+
+//     #projectOnePhotoOneImg, #projectOnePhotoTwoImg, #projectTwoPhotoOneImg, #projectTwoPhotoTwoImg{
+//         width:500px;
+//         padding:10px;
+//         justify-self: center;
+//     }
+
+//     #projectTwoPhotoOneImg
+//     {
+//         grid-column: 1/2;
+//         grid-row:1/2;
+//     }
+
+
+//     #layoutTwoContentOne
+//     {
+//         grid-column: 2/3;
+//         grid-row:1/2;
+//     }
+
+//     #projectTwoPhotoTwoImg
+//     {
+//         grid-column: 2/3;
+//         grid-row:1/2;
+//     }
+
+
+//     #layoutTwoContentTwo
+//     {
+//         grid-column: 1/2;
+//         grid-row:1/2;
+//     }
+
+// }

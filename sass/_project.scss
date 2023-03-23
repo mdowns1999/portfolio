@@ -1,0 +1,181 @@
+/************************************************************PROJECT PAGE***********************************************************/
+#projectSelectionBox
+{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+select{
+    padding:10px;
+    width: 40%;
+}
+
+#displayProjectBox{
+    padding:5px;
+}
+
+#projectPage{
+    background-color: #B8B8B8;
+    max-width: 1500px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 25px;
+
+
+}
+
+#projectOverview
+{
+    background-color: #B8B8B8;
+    text-align: center;
+    border-radius: 25px 25px 0px 0px;
+    padding:20px;
+}
+
+.projectContent
+{
+    text-align: left;
+}
+
+#projectBoxOne, #projectBoxTwo, #GitHubBanner
+{
+    display:grid;
+    grid-template-columns: 1fr;
+    padding:20px;
+
+}
+
+#GitHubBanner
+{
+    border-radius: 0px 0px 25px 25px;
+    justify-items: center;
+    padding:20px;
+}
+
+
+.layoutStyleOne
+{
+    background-color: #057DCD;
+}
+
+.layoutStyleTwo
+{
+    background-color: #43B0F1;
+}
+
+
+#layoutOneContentOne, #layoutOneContentTwo{
+    padding:30px;
+
+}
+
+#projectOnePhotoOneImg, #projectOnePhotoTwoImg, #projectTwoPhotoOneImg, #projectTwoPhotoTwoImg{
+    width:400px;
+    padding:10px;
+    justify-self: center;
+}
+
+#GitHubBtn{
+    text-decoration: none;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    border: 2px solid black;
+    color:black;
+    font-size: 18px;
+    border-radius: 15px;
+    padding:20px;
+    background-color: #B8B8B8;
+    color:black;
+    width:30%;
+    height: 30%;
+    transition:0.3s;
+
+}
+
+#GitHubBtn:hover{
+    background-color: #E8Eff1;
+    color:black;
+}
+
+
+
+/**************************************************Tablet View******************************************/
+@media screen and (min-width: 760px) {
+
+            /************************************************************PROJECT PAGE***********************************************************/
+    select{
+        width: 35%;
+    }
+        
+
+}
+
+
+/**************************************************LapTop View******************************************/
+@media screen and (min-width: 1160px) {
+
+
+    /************************************************************PROJECT PAGE***********************************************************/
+    select{
+        width: 30%;
+    }
+
+    #projectBoxOne, #projectBoxTwo, #GitHubBanner
+    {
+        grid-template-columns: 1fr 1fr;
+        
+    }
+
+    #projectOnePhotoOneImg
+    {
+        grid-column: 2/3;
+        grid-row:1/2;
+    }
+
+
+    #projectOnePhotoTwoImg
+    {
+        grid-column: 1/2;
+        grid-row:1/2;
+    }
+
+    #layoutOneContentTwo
+    {
+        grid-column: 2/3;
+        grid-row:1/2;
+    }
+
+    #projectOnePhotoOneImg, #projectOnePhotoTwoImg, #projectTwoPhotoOneImg, #projectTwoPhotoTwoImg{
+        width:500px;
+        padding:10px;
+        justify-self: center;
+    }
+
+    #projectTwoPhotoOneImg
+    {
+        grid-column: 1/2;
+        grid-row:1/2;
+    }
+
+
+    #layoutTwoContentOne
+    {
+        grid-column: 2/3;
+        grid-row:1/2;
+    }
+
+    #projectTwoPhotoTwoImg
+    {
+        grid-column: 2/3;
+        grid-row:1/2;
+    }
+
+
+    #layoutTwoContentTwo
+    {
+        grid-column: 1/2;
+        grid-row:1/2;
+    }
+
+}

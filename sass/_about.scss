@@ -1,0 +1,201 @@
+/************************************************************ABOUT PAGE***********************************************************/
+.pageBanner {
+  background-color: #1e3d58;
+  text-align: center;
+  color: #e8eff1;
+  padding: 50px;
+}
+#selfSummarySection {
+  background-color: #057dcd;
+}
+
+#aboutBox {
+  margin: 1rem auto;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5px;
+  background-color: #057dcd;
+  padding: 20px;
+}
+
+#aboutPhoto {
+  width: 300px;
+  padding: 10px;
+  justify-self: center;
+  align-self: center;
+}
+
+#skillsBox {
+  margin: 1rem auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  padding: 20px;
+}
+
+#contactBanner {
+  background-color: #057dcd;
+}
+
+#contactBox {
+  background-color: #057dcd;
+  /* color:white; */
+  margin: 1rem auto;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5px;
+  padding: 20px;
+}
+
+#contactSection {
+  padding: 10px;
+  background-color: #057dcd;
+}
+
+#aboutContactBtn,
+#seeResumeBtn {
+  text-decoration: none;
+  text-align: center;
+  justify-self: center;
+  align-self: center;
+  border: 2px solid black;
+  color: black;
+  font-size: 18px;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #b8b8b8;
+  color: black;
+  width: 40%;
+  height: 30%;
+  transition: 0.3s;
+}
+
+#aboutContactBtn:hover {
+  background-color: #e8eff1;
+  color: black;
+}
+
+#seeResumeBtn {
+  background-color: #43b0f1;
+}
+
+#seeResumeBtn:hover {
+  background-color: #b8b8b8;
+}
+
+#progressSection {
+  padding: 30px;
+}
+
+h4 {
+  margin-bottom: 5px;
+}
+.progressBar {
+  width: 100%;
+  background-color: #b8b8b8;
+  text-align: center;
+  color: white;
+}
+
+#pyBar,
+#cPPBar,
+.htmlBar,
+#cssBar,
+#jsBar,
+#sqlBar {
+  height: 30px;
+  background-color: green;
+}
+#pyBar {
+  width: 70%;
+}
+
+#cPPBar {
+  width: 60%;
+}
+
+.htmlBar {
+  width: 70%;
+}
+
+#cssBar {
+  width: 70%;
+}
+
+#jsBar {
+  width: 60%;
+}
+
+#sqlBar {
+  width: 50%;
+}
+
+/**************************************************Tablet View******************************************/
+@media screen and (min-width: 760px) {
+  /*******************************************ABOUT PAGE**********************************/
+  #aboutPhoto {
+    width: 400px;
+  }
+
+  #contactBox {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #aboutContactBtn {
+    width: 30%;
+    height: 15%;
+  }
+}
+
+/**************************************************LapTop View******************************************/
+@media screen and (min-width: 1160px) {
+  /*******************************************ABOUT PAGE**********************************/
+  #aboutBox {
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+  }
+
+  #aboutPhoto {
+    width: 500px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    position: absolute;
+    top: 150px;
+    right: 20px;
+  }
+
+  #aboutSection {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  #skillsBox {
+    grid-template-columns: 1fr 1fr;
+    margin-top: 200px;
+    margin-bottom: 200px;
+  }
+
+  #skillsSection {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+
+  #progressSection {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  #contactSection {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+}
+
+
+
+
