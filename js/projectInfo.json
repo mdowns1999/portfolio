@@ -69,7 +69,7 @@
             "challenges": "One of the main challenges I faced was learning how to read and  use a JSON file on my web page.  Since using JavaScript to fetch it for me was new, I had to research a few things of documentation to understand how the process worked.  Now that it works, I used it to bring in images and also used it to work with my API.",
             "projectPic2": "images/websiteDesign.png",
             "design": "The design of this website was pretty basic.  I mainly used grid to form simple layouts.  The main focus was on practicing and using JavaScript in different ways.  ",
-            "GitHubLink": "https://github.com/mdowns1999/wdd230"
+            "GitHubLink": "https://github.com/mdowns1999/chamberWebsite"
 
 
         }
