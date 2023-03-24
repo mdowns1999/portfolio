@@ -1,22 +1,20 @@
 /***************************************FOOTER*********************************************/
 footer {
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
     color:black;
     padding:10px;
     font-size:16px;
 }
 
 #copyRight{
-    grid-column: 2/3;
     text-align:center;
 }
 
 .linkedin {
     width:25px;
-    margin-top: 10px;
-    grid-column: 3/4;
-    margin-left: 100px;
+    margin: 20px 0;
     transition:0.3s;
 }
 
@@ -24,3 +22,19 @@ footer {
     background-color: #E8Eff1;
 }
 
+@media screen and (min-width: 760px) {
+    footer {
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+    #copyRight{
+        grid-column: 2/3;
+    }
+    
+    .linkedin {
+        grid-column: 3/4;
+        margin: 0;
+        margin-left: 200px;
+    }
+}
+}

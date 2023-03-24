@@ -103,12 +103,11 @@ function displayProjectLayoutOne(project)
 {
     //Get the Box we want to display the page
     let displayBox = document.getElementById('displayProjectBox');
-    console.log(project.style)
+    //console.log(project.style)
     //Generate the HTML for the project
         displayBox.innerHTML = 
         `
         <div id="projectPage">
-
         <div id="projectOverview">
             <h1 id="projectHeading">${project.name}</h1>
             <p class = "projectContent">${project.overview}</p>

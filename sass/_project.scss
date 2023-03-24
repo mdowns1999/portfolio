@@ -1,3 +1,4 @@
+@use "theme" as t;
 /************************************************************PROJECT PAGE***********************************************************/
 #projectSelectionBox
 {
@@ -8,6 +9,7 @@
 select{
     padding:10px;
     width: 40%;
+    text-align: center;
 }
 
 #displayProjectBox{
@@ -28,7 +30,7 @@ select{
 {
     background-color: #B8B8B8;
     text-align: center;
-    border-radius: 25px 25px 0px 0px;
+    border-radius: 15px 15px 0px 0px;
     padding:20px;
 }
 
@@ -47,7 +49,7 @@ select{
 
 #GitHubBanner
 {
-    border-radius: 0px 0px 25px 25px;
+    border-radius: 0px 0px 15px 15px;
     justify-items: center;
     padding:20px;
 }
@@ -55,12 +57,12 @@ select{
 
 .layoutStyleOne
 {
-    background-color: #057DCD;
+    background-color: t.$primary-color;
 }
 
 .layoutStyleTwo
 {
-    background-color: #43B0F1;
+    background-color: t.$accent-two;
 }
 
 

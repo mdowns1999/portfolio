@@ -1,4 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&display=swap'); */
 header,
 main,
 footer {
@@ -8,7 +7,7 @@ footer {
 
 header,
 footer {
-  background-color: #b8b8b8;
+  background-color: #f7ede2;
 }
 
 header,
@@ -25,47 +24,37 @@ h2 {
 }
 
 body {
-  background-color: #e8eff1;
+  background-color: #dad7cd;
 }
 
 /**************************************************HEADER******************************************/
 header {
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  justify-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-size: 18px;
   margin-top: 0px;
 }
 
 #websiteLogo {
-  grid-column: 1/3;
-  grid-row: 1/2;
   width: 200px;
   padding: 10px;
-  justify-items: center;
   margin-top: 20px;
 }
 
 /**************************************************NAVIGATION******************************************/
 #ham {
-  grid-column: 3/4;
-  grid-row: 1/2;
   align-self: center;
   text-decoration: none;
   font-size: 25px;
-  color: #e8eff1;
+  color: black;
   transition: 0.3s;
   padding: 10px;
+  font-size: 35px;
 }
-
 #ham:hover {
-  color: rgb(65, 65, 65);
+  color: #f5cac3;
   transition-duration: 0.2s;
-}
-
-nav {
-  grid-column: 2/3;
-  grid-row: 2/3;
 }
 
 nav a {
@@ -77,13 +66,11 @@ nav a {
   text-align: center;
   transition: 0.3s;
 }
-
 nav a:hover {
   border-radius: 10px;
-  background-color: #e8eff1;
-  /* color:#057DCD; */
-  transition-duration: 0.2s;
-  padding: 15px;
+  background-color: #f5cac3;
+  transition-duration: 0.3s;
+  padding: 12px;
 }
 
 .navigation {
@@ -106,16 +93,9 @@ nav a:hover {
 @media screen and (min-width: 760px) {
   /*******************************************HEADER**********************************/
   header {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-items: center;
+    flex-direction: row;
+    justify-content: space-between;
     font-size: 18px;
-  }
-  #websiteLogo {
-    grid-column: 1/3;
-  }
-  nav {
-    grid-column: 4/5;
-    grid-row: 1/2;
   }
   .navigation {
     flex-direction: row;
@@ -138,9 +118,6 @@ nav a:hover {
 /**************************************************LapTop View******************************************/
 @media screen and (min-width: 1160px) {
   /*******************************************HEADER**********************************/
-  #websiteLogo {
-    grid-column: 1/2;
-  }
   .linkedin {
     margin-left: 300px;
   }
@@ -151,19 +128,18 @@ main {
   font-size: 20px;
 }
 
-p,
-ul {
+p {
   line-height: 30px;
   padding: 5px;
 }
 
 /**************Welcome Section***************/
 #introSection {
-  background-color: #1e3d58;
+  background-color: #f28482;
 }
 
 #welcomeSection {
-  color: white;
+  color: black;
 }
 
 #introBox {
@@ -173,7 +149,7 @@ ul {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 5px;
-  background-color: #1e3d58;
+  background-color: #f28482;
   padding: 20px;
 }
 
@@ -198,7 +174,7 @@ ul {
   font-size: 18px;
   border-radius: 15px;
   padding: 20px;
-  background-color: #b8b8b8;
+  background-color: #f7ede2;
   color: black;
   width: 60%;
   height: 30%;
@@ -206,7 +182,7 @@ ul {
 }
 
 .welcomeBtns:hover {
-  background-color: #e8eff1;
+  background-color: #84a59d;
   color: black;
 }
 
@@ -221,8 +197,8 @@ ul {
 
 .cardSection {
   border: 1px solid black;
-  color: #e8eff1;
-  background-color: #1e3d58;
+  color: black;
+  background-color: #84a59d;
   font-size: 18px;
 }
 
@@ -233,12 +209,12 @@ ul {
 
 .cardBtn {
   text-decoration: none;
-  color: #e8eff1;
+  color: black;
   transition: 0.3s;
 }
 
 .cardBtn:hover {
-  color: #b8b8b8;
+  color: #f7ede2;
   transition-duration: 0.3s;
 }
 
@@ -298,14 +274,14 @@ ul {
 }
 /************************************************************ABOUT PAGE***********************************************************/
 .pageBanner {
-  background-color: #1e3d58;
+  background-color: #f28482;
   text-align: center;
-  color: #e8eff1;
+  color: black;
   padding: 50px;
 }
 
 #selfSummarySection {
-  background-color: #057dcd;
+  background-color: #84a59d;
 }
 
 #aboutBox {
@@ -314,7 +290,7 @@ ul {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 5px;
-  background-color: #057dcd;
+  background-color: #84a59d;
   padding: 20px;
 }
 
@@ -337,11 +313,11 @@ ul {
 }
 
 #contactBanner {
-  background-color: #057dcd;
+  background-color: #84a59d;
 }
 
 #contactBox {
-  background-color: #057dcd;
+  background-color: #84a59d;
   /* color:white; */
   margin: 1rem auto;
   max-width: 1200px;
@@ -353,7 +329,7 @@ ul {
 
 #contactSection {
   padding: 10px;
-  background-color: #057dcd;
+  background-color: #84a59d;
 }
 
 #aboutContactBtn,
@@ -367,7 +343,7 @@ ul {
   font-size: 18px;
   border-radius: 15px;
   padding: 20px;
-  background-color: #b8b8b8;
+  background-color: #f7ede2;
   color: black;
   width: 40%;
   height: 30%;
@@ -375,16 +351,16 @@ ul {
 }
 
 #aboutContactBtn:hover {
-  background-color: #e8eff1;
+  background-color: #f28482;
   color: black;
 }
 
 #seeResumeBtn {
-  background-color: #43b0f1;
+  background-color: #84a59d;
 }
 
 #seeResumeBtn:hover {
-  background-color: #b8b8b8;
+  background-color: #f5cac3;
 }
 
 #progressSection {
@@ -399,7 +375,8 @@ h4 {
   width: 100%;
   background-color: #b8b8b8;
   text-align: center;
-  color: white;
+  color: black;
+  border: 1px solid black;
 }
 
 #pyBar,
@@ -409,7 +386,7 @@ h4 {
 #jsBar,
 #sqlBar {
   height: 30px;
-  background-color: green;
+  background-color: #f5cac3;
 }
 
 #pyBar {
@@ -527,6 +504,7 @@ h4 {
 select {
   padding: 10px;
   width: 40%;
+  text-align: center;
 }
 
 #displayProjectBox {
@@ -544,7 +522,7 @@ select {
 #projectOverview {
   background-color: #B8B8B8;
   text-align: center;
-  border-radius: 25px 25px 0px 0px;
+  border-radius: 15px 15px 0px 0px;
   padding: 20px;
 }
 
@@ -559,17 +537,17 @@ select {
 }
 
 #GitHubBanner {
-  border-radius: 0px 0px 25px 25px;
+  border-radius: 0px 0px 15px 15px;
   justify-items: center;
   padding: 20px;
 }
 
 .layoutStyleOne {
-  background-color: #057DCD;
+  background-color: #f28482;
 }
 
 .layoutStyleTwo {
-  background-color: #43B0F1;
+  background-color: #84a59d;
 }
 
 #layoutOneContentOne, #layoutOneContentTwo {
@@ -656,23 +634,21 @@ select {
 }
 /***************************************FOOTER*********************************************/
 footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   color: black;
   padding: 10px;
   font-size: 16px;
 }
 
 #copyRight {
-  grid-column: 2/3;
   text-align: center;
 }
 
 .linkedin {
   width: 25px;
-  margin-top: 10px;
-  grid-column: 3/4;
-  margin-left: 100px;
+  margin: 20px 0;
   transition: 0.3s;
 }
 
@@ -680,9 +656,23 @@ footer {
   background-color: #E8Eff1;
 }
 
+@media screen and (min-width: 760px) {
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  footer #copyRight {
+    grid-column: 2/3;
+  }
+  footer .linkedin {
+    grid-column: 3/4;
+    margin: 0;
+    margin-left: 200px;
+  }
+}
 /**************************************THANK YOU AND 404 PAGES*****************************/
 #errorSection, #thanksSection {
-  background-color: #43B0F1;
+  background-color: #f28482;
   text-align: center;
   padding: 30px;
 }
@@ -692,7 +682,7 @@ footer {
   margin: 1rem auto;
   text-align: center;
   padding: 20px;
-  background-color: #43B0F1;
+  background-color: #f28482;
 }
 
 /************************************************************CONTACT PAGE***********************************************************/

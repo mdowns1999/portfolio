@@ -1,3 +1,17 @@
+'use strict'
+
+/************************************
+ * TOGGLE HAM
+ * Target the Ham and make it respond 
+ * when clicked
+ * **********************************/
+function toggleHam()
+{
+let ham = document.getElementById('ham');
+let nav = document.querySelector('.navigation');
+ham.addEventListener('click', () => {nav.classList.toggle('responsive')});
+}
+
 /************************************
  * FOTTER DATE
  * Date for footer.
@@ -10,15 +24,6 @@ function footer_date()
     document.getElementById('year').textContent = year;
 }
 
-// function hamToggle()
-// {
-//     let ham = document.getElementById('ham');
-//     let nav = document.querySelector('.navigation');
-
-//     ham.addEventListener('click', () => {nav.classList.toggle('.responsive')}, false);
-//     console.log('Hello')
-// }
-
 /************************************
  * MAIN
  * Call Javascript Functions
@@ -26,38 +31,10 @@ function footer_date()
 function main()
 {
     footer_date()
+    toggleHam();
 
 }
 
 main()
-
-let ham = document.getElementById('ham');
-let nav = document.querySelector('.navigation');
-
-    //ham.addEventListener('click', () => {nav.classList.toggle('.responsive')}, false);
-
-    ham.addEventListener('click', () => {nav.classList.toggle('responsive')});
-
-
-    // var i = 0;
-    // function move() {
-    //   if (i == 0) {
-    //     i = 1;
-    //     var elem = document.querySelector("myBar");
-    //     var width = 1;
-    //     var id = setInterval(frame, 15);
-    //     function frame() {
-    //       if (width >= 70) {
-    //         clearInterval(id);
-    //         i = 0;
-    //       } else {
-    //         width++;
-    //         elem.style.width = width + "%";
-    //       }
-    //     }
-    //   }
-    // }
-
-//move()
 
 //https://wireframe.cc/XI1pbh

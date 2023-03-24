@@ -1,12 +1,13 @@
+@use "theme" as t;
 /************************************************************ABOUT PAGE***********************************************************/
 .pageBanner {
-  background-color: #1e3d58;
+  background-color: t.$primary-color;
   text-align: center;
-  color: #e8eff1;
+  color: black;
   padding: 50px;
 }
 #selfSummarySection {
-  background-color: #057dcd;
+  background-color: t.$accent-two;
 }
 
 #aboutBox {
@@ -15,7 +16,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 5px;
-  background-color: #057dcd;
+  background-color: t.$accent-two;
   padding: 20px;
 }
 
@@ -38,11 +39,11 @@
 }
 
 #contactBanner {
-  background-color: #057dcd;
+  background-color: t.$accent-two;
 }
 
 #contactBox {
-  background-color: #057dcd;
+  background-color: t.$accent-two;
   /* color:white; */
   margin: 1rem auto;
   max-width: 1200px;
@@ -54,7 +55,7 @@
 
 #contactSection {
   padding: 10px;
-  background-color: #057dcd;
+  background-color: t.$accent-two;
 }
 
 #aboutContactBtn,
@@ -68,7 +69,7 @@
   font-size: 18px;
   border-radius: 15px;
   padding: 20px;
-  background-color: #b8b8b8;
+  background-color: t.$secondary-color;
   color: black;
   width: 40%;
   height: 30%;
@@ -76,16 +77,16 @@
 }
 
 #aboutContactBtn:hover {
-  background-color: #e8eff1;
+  background-color: t.$primary-color;
   color: black;
 }
 
 #seeResumeBtn {
-  background-color: #43b0f1;
+  background-color: t.$accent-two;
 }
 
 #seeResumeBtn:hover {
-  background-color: #b8b8b8;
+  background-color: t.$hover-color;
 }
 
 #progressSection {
@@ -99,7 +100,8 @@ h4 {
   width: 100%;
   background-color: #b8b8b8;
   text-align: center;
-  color: white;
+  color: black;
+  border: 1px solid black;
 }
 
 #pyBar,
@@ -109,7 +111,7 @@ h4 {
 #jsBar,
 #sqlBar {
   height: 30px;
-  background-color: green;
+  background-color: t.$hover-color;
 }
 #pyBar {
   width: 70%;

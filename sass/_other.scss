@@ -1,6 +1,7 @@
+@use "theme" as t;
 /**************************************THANK YOU AND 404 PAGES*****************************/
 #errorSection, #thanksSection{
-    background-color: #43B0F1;
+    background-color: t.$primary-color;
     text-align: center;
     padding:30px;
 }
@@ -10,7 +11,7 @@
     margin:1rem auto;
     text-align: center;
     padding:20px;
-    background-color: #43B0F1;
+    background-color: t.$primary-color;
 }
 
 
