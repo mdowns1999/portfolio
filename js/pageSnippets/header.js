@@ -6,10 +6,10 @@ function generateHeader(){
         <a id="ham" href="#">&#9776;</a>
         <nav>
             <ul class="navigation">
-                <li><a href="https://mdowns1999.github.io/portfolio/">Home</a></li>
-                <li><a href="https://mdowns1999.github.io/pages/about.html">About</a></li>
-                <li><a href="https://mdowns1999.github.io/pages/projects.html">Projects</a></li>
-                <li><a href="https://mdowns1999.github.io/pages/contact.html">Contact</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     `
