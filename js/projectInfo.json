@@ -38,9 +38,9 @@
         {
             "name": "5 Day Weather API",
             "overview": "This project is a simple Five Day Weather forecast of three different cities.  The purpose of this site was to practice applying various topics in JavaScript that I learned from some Web Development classes.  The topics include: Fetching and using a JSON file from an API, storing and using information from local storage, and using JavaScript Objects in general.",
-            "projectPic1": "images/weatherForcast.png",
+            "projectPic1": "images/weatherForecast.png",
             "challenges": "One challenge was having the right temperatures read from the API at the correct time of the day.  If I simply targeted, the first element of the temperature array, it was not correctly depicting the correct high or low of the day.  To solve this problem, I had to use some math and figure out which high and low temperatures to target in a vast Array of predicted temperatures for each individual day of the week.",
-            "projectPic2": "images/weatherWireframe.png",
+            "projectPic2": "images/weatherWireFrame.png",
             "design": "I made a simple layout and file structure for this project.  For using the local Storage methods, I made a small Class to help make it easier for me to update and pull information from local Storage.",
             "GitHubLink": "https://github.com/mdowns1999/weatherAPI"
         },
