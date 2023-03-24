@@ -1,6 +1,7 @@
+@use "theme" as t;
 /************************************************************CONTACT PAGE***********************************************************/
 #contactArea{
-    background-color: #057DCD;
+    background-color: t.$accent-two;
 }
 
 #contactGrid{
@@ -10,6 +11,12 @@
     grid-template-columns: 1fr;
     grid-gap:10px;
     padding:20px;
+}
+
+#contactInfo{
+    ul li{
+        margin: 10px 0;
+    }
 }
 
 /**************************************************Tablet View******************************************/

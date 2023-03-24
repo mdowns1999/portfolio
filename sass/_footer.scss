@@ -1,3 +1,5 @@
+@use "theme" as t;
+
 /***************************************FOOTER*********************************************/
 footer {
     display:flex;
@@ -19,7 +21,7 @@ footer {
 }
 
 .linkedin:hover{
-    background-color: #E8Eff1;
+    background-color: t.$accent-two;
 }
 
 @media screen and (min-width: 760px) {
