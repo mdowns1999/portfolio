@@ -2,7 +2,7 @@ function generateHeader(){
     let header = document.querySelector('header');
 
     header.innerHTML = `
-    <a href="index.html"><img src="../images/portfolioLogoBlue.png" alt="Mike Downs Logo" id="websiteLogo"></a>
+    <a href="index.html"><img src="./images/portfolioLogoBlue.png" alt="Mike Downs Logo" id="websiteLogo"></a>
         <a id="ham" href="#">&#9776;</a>
         <nav>
             <ul class="navigation">
