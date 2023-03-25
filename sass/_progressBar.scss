@@ -1,0 +1,147 @@
+@use "theme" as t;
+@mixin loadBarSetUp($knowledgeAmount)
+{
+text-align: center;
+  content: $knowledgeAmount;
+  position:absolute;
+  width: 1%;
+  height: 30px;
+  background-color: t.$hover-color;
+  //top: -30px;
+}
+
+
+.progressBar div{
+    // position: relative;
+    // display:block;
+    // width: 100%;
+    // background-color: #b8b8b8;
+    // text-align: center;
+    // color: black;
+    // border: 1px solid black;
+    display:block;
+    position: relative;
+    width: 100%;
+    height: 30px;
+    background-color:  #b8b8b8;
+    margin-top: 1%;
+    //transition: 0.5s;
+  }
+  
+  .pyBar,
+  .cPPBar,
+  .htmlBar,
+  .cssBar,
+  .jsBar,
+  .sqlBar {
+    height: 30px;
+    background-color: t.$hover-color;
+  }
+
+
+  .pyBar {
+    width: 1%;
+    $knowledgeAmount: "60%";
+    &:before{
+        @include loadBarSetUp($knowledgeAmount);
+        animation:load60Bar 6.0s forwards;
+    }
+  }
+  
+  .cPPBar {
+    width: 1%;
+    $knowledgeAmount: "70%";
+    &:before{
+        @include loadBarSetUp($knowledgeAmount);
+        animation:load70Bar 6.0s  forwards;
+    }
+  }
+
+  .cSharpBar {
+    width: 1%;
+    $knowledgeAmount: "50%";
+    &:before{
+        @include loadBarSetUp($knowledgeAmount);
+        animation:load50Bar 6.0s  forwards;
+    }
+  }
+  
+  .htmlBar {
+    width: 1%;
+    $knowledgeAmount: "70%";
+    &:before{
+        @include loadBarSetUp($knowledgeAmount);
+        animation:load70Bar 6.0s  forwards;
+    }
+  }
+  
+  .cssBar {
+    width: 1%;
+    $knowledgeAmount: "70%";
+    &:before{
+        @include loadBarSetUp($knowledgeAmount);
+        animation:load70Bar 6.0s  forwards;
+    }
+  }
+
+  
+  
+  .jsBar {
+    width: 1%;
+    $knowledgeAmount: "60%";
+    &:before{
+        @include loadBarSetUp($knowledgeAmount);
+        animation:load60Bar 6.0s  forwards;
+    }
+  }
+  
+  .sqlBar {
+    width: 1%;
+    $knowledgeAmount: "50%";
+    &:before{
+        @include loadBarSetUp($knowledgeAmount);
+        animation:load50Bar 6.0s  forwards;
+    }
+  }
+
+  @keyframes load70Bar{
+    0%{
+      width:1%;
+    }
+
+    60%{
+        width:1%;
+    }
+  
+    100%{
+        width:70%;
+    };
+  }
+
+  @keyframes load60Bar{
+    0%{
+      width:1%;
+    }
+
+    60%{
+        width:1%;
+    }
+  
+    100%{
+        width:60%;
+    };
+  }
+
+  @keyframes load50Bar{
+    0%{
+      width:1%;
+    }
+
+    60%{
+        width:1%;
+    }
+  
+    100%{
+        width:50%;
+    };
+  }

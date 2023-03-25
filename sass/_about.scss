@@ -96,46 +96,7 @@
 h4 {
   margin-bottom: 5px;
 }
-.progressBar {
-  width: 100%;
-  background-color: #b8b8b8;
-  text-align: center;
-  color: black;
-  border: 1px solid black;
-}
 
-#pyBar,
-#cPPBar,
-.htmlBar,
-#cssBar,
-#jsBar,
-#sqlBar {
-  height: 30px;
-  background-color: t.$hover-color;
-}
-#pyBar {
-  width: 70%;
-}
-
-#cPPBar {
-  width: 60%;
-}
-
-.htmlBar {
-  width: 70%;
-}
-
-#cssBar {
-  width: 70%;
-}
-
-#jsBar {
-  width: 60%;
-}
-
-#sqlBar {
-  width: 50%;
-}
 
 /**************************************************Tablet View******************************************/
 @media screen and (min-width: 760px) {

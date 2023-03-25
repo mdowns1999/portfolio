@@ -39,7 +39,7 @@ header {
 #websiteLogo {
   width: 200px;
   padding: 10px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 /**************************************************NAVIGATION******************************************/
@@ -371,48 +371,6 @@ h4 {
   margin-bottom: 5px;
 }
 
-.progressBar {
-  width: 100%;
-  background-color: #b8b8b8;
-  text-align: center;
-  color: black;
-  border: 1px solid black;
-}
-
-#pyBar,
-#cPPBar,
-.htmlBar,
-#cssBar,
-#jsBar,
-#sqlBar {
-  height: 30px;
-  background-color: #f5cac3;
-}
-
-#pyBar {
-  width: 70%;
-}
-
-#cPPBar {
-  width: 60%;
-}
-
-.htmlBar {
-  width: 70%;
-}
-
-#cssBar {
-  width: 70%;
-}
-
-#jsBar {
-  width: 60%;
-}
-
-#sqlBar {
-  width: 50%;
-}
-
 /**************************************************Tablet View******************************************/
 @media screen and (min-width: 760px) {
   /*******************************************ABOUT PAGE**********************************/
@@ -651,7 +609,7 @@ footer {
 }
 
 .linkedin {
-  width: 25px;
+  width: 35px;
   margin: 20px 0;
   transition: 0.3s;
 }
@@ -672,6 +630,150 @@ footer {
     grid-column: 3/4;
     margin: 0;
     margin-left: 200px;
+    width: 30px;
+  }
+}
+.progressBar div {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 30px;
+  background-color: #b8b8b8;
+  margin-top: 1%;
+}
+
+.pyBar,
+.cPPBar,
+.htmlBar,
+.cssBar,
+.jsBar,
+.sqlBar {
+  height: 30px;
+  background-color: #f5cac3;
+}
+
+.pyBar {
+  width: 1%;
+}
+.pyBar:before {
+  text-align: center;
+  content: "60%";
+  position: absolute;
+  width: 1%;
+  height: 30px;
+  background-color: #f5cac3;
+  animation: load60Bar 6s forwards;
+}
+
+.cPPBar {
+  width: 1%;
+}
+.cPPBar:before {
+  text-align: center;
+  content: "70%";
+  position: absolute;
+  width: 1%;
+  height: 30px;
+  background-color: #f5cac3;
+  animation: load70Bar 6s forwards;
+}
+
+.cSharpBar {
+  width: 1%;
+}
+.cSharpBar:before {
+  text-align: center;
+  content: "50%";
+  position: absolute;
+  width: 1%;
+  height: 30px;
+  background-color: #f5cac3;
+  animation: load50Bar 6s forwards;
+}
+
+.htmlBar {
+  width: 1%;
+}
+.htmlBar:before {
+  text-align: center;
+  content: "70%";
+  position: absolute;
+  width: 1%;
+  height: 30px;
+  background-color: #f5cac3;
+  animation: load70Bar 6s forwards;
+}
+
+.cssBar {
+  width: 1%;
+}
+.cssBar:before {
+  text-align: center;
+  content: "70%";
+  position: absolute;
+  width: 1%;
+  height: 30px;
+  background-color: #f5cac3;
+  animation: load70Bar 6s forwards;
+}
+
+.jsBar {
+  width: 1%;
+}
+.jsBar:before {
+  text-align: center;
+  content: "60%";
+  position: absolute;
+  width: 1%;
+  height: 30px;
+  background-color: #f5cac3;
+  animation: load60Bar 6s forwards;
+}
+
+.sqlBar {
+  width: 1%;
+}
+.sqlBar:before {
+  text-align: center;
+  content: "50%";
+  position: absolute;
+  width: 1%;
+  height: 30px;
+  background-color: #f5cac3;
+  animation: load50Bar 6s forwards;
+}
+
+@keyframes load70Bar {
+  0% {
+    width: 1%;
+  }
+  60% {
+    width: 1%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@keyframes load60Bar {
+  0% {
+    width: 1%;
+  }
+  60% {
+    width: 1%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+@keyframes load50Bar {
+  0% {
+    width: 1%;
+  }
+  60% {
+    width: 1%;
+  }
+  100% {
+    width: 50%;
   }
 }
 /**************************************THANK YOU AND 404 PAGES*****************************/
