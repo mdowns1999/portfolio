@@ -52,7 +52,16 @@
             "projectPic2":"images/BYUIHomeMobile.png",
             "design":"Besides styling the page as close to the BYUI Website as close as I could, I also focused on how I was going to layout my HTML.  For smaller portions of the page I used Flexbox and floats.  For the overall arrangement of the page I used Grid.  Considering how things need to be laid out helped structure my code in a way that made it easy to style and position my content.",
             "GitHubLink":"https://github.com/mdowns1999/BYUIWebsiteRebuildCode"
-         },        
+         },
+         {
+            "name": "C# ATM",
+            "overview": "Before this project, I knew little about C#.  So I decided to do a simple two week sprint and begin learning the C# language.  I chose to do a simple ATM project so I can work on practicing how to use classes, control flow, loops, and the list container.  To display everything, I chose to do it in the console so I could mainly focus on learning c#.  Since my two eek sprint, I have been taking two C# courses on Udemy to learn C#.",
+            "projectPic1": "images/cSharpConsole.png",
+            "challenges": "One challenge I faced was figuring out how to store the informaiton.  SInce I had time contstraints on this sprint, I chose to use a a list for each individual account.  I tried making it where the other classes would not nessicaryily care what structure I was using.  If I have time, I want to maybe hook up a database to this project, however, I might have to refactor the code a tiny bit ",
+            "projectPic2": "images/programStructure.png",
+            "design": "For this project I used about 5 or 6 classes.  I tried making each class do its own thing.  For example, the transaction class handles any transactions to the accounts. The ATM simply handles the user logging into the Bank and once the login is verified, the Bank class then directs the client to the other classes on where it needs to go.",
+            "GitHubLink": "https://github.com/mdowns1999/cSharpATM"
+        },        
          {
             "name": "Data Structures Presentation",
             "overview": "This project is a simple presentation on three kinds of data structures. The purpose of this is to demonstrate my understanding of these data structures and show that I can explain it to another individual. The presentation contains diagrams and explanations about each data structure. I also provided code examples, practice problems, and solutions to those practice problems.",
