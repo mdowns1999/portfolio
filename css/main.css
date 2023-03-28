@@ -135,7 +135,7 @@ p {
 
 /**************Welcome Section***************/
 #introSection {
-  background-color: #f28482;
+  background-color: #f95855;
 }
 
 #welcomeSection {
@@ -149,7 +149,7 @@ p {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 5px;
-  background-color: #f28482;
+  background-color: #f95855;
   padding: 20px;
 }
 
@@ -274,7 +274,7 @@ p {
 }
 /************************************************************ABOUT PAGE***********************************************************/
 .pageBanner {
-  background-color: #f28482;
+  background-color: #f95855;
   text-align: center;
   color: black;
   padding: 50px;
@@ -351,7 +351,7 @@ p {
 }
 
 #aboutContactBtn:hover {
-  background-color: #f28482;
+  background-color: #f95855;
   color: black;
 }
 
@@ -505,7 +505,7 @@ select {
 }
 
 .layoutStyleOne {
-  background-color: #f28482;
+  background-color: #f95855;
 }
 
 .layoutStyleTwo {
@@ -778,7 +778,7 @@ footer {
 }
 /**************************************THANK YOU AND 404 PAGES*****************************/
 #errorSection, #thanksSection {
-  background-color: #f28482;
+  background-color: #f95855;
   text-align: center;
   padding: 30px;
 }
@@ -788,7 +788,7 @@ footer {
   margin: 1rem auto;
   text-align: center;
   padding: 20px;
-  background-color: #f28482;
+  background-color: #f95855;
 }
 
 /************************************************************CONTACT PAGE***********************************************************/
