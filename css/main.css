@@ -295,7 +295,7 @@ p {
 }
 
 #aboutPhoto {
-  width: 300px;
+  width: 275px;
   padding: 10px;
   justify-self: center;
   align-self: center;
@@ -436,6 +436,9 @@ h4 {
   padding: 20px;
 }
 
+#contactInfo {
+  font-size: 19px;
+}
 #contactInfo ul li {
   margin: 10px 0;
 }
@@ -496,6 +499,7 @@ select {
   display: grid;
   grid-template-columns: 1fr;
   padding: 20px;
+  align-items: center;
 }
 
 #GitHubBanner {
@@ -517,26 +521,30 @@ select {
 }
 
 #projectOnePhotoOneImg, #projectOnePhotoTwoImg, #projectTwoPhotoOneImg, #projectTwoPhotoTwoImg {
-  width: 400px;
+  width: 250px;
   padding: 10px;
   justify-self: center;
 }
 
 #GitHubBtn {
   text-decoration: none;
-  text-align: center;
-  justify-self: center;
-  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
   border: 2px solid black;
   color: black;
   font-size: 18px;
   border-radius: 15px;
-  padding: 20px;
+  padding: 10px;
   background-color: #B8B8B8;
-  color: black;
-  width: 30%;
-  height: 30%;
-  transition: 0.3s;
+  width: 40%;
+  height: 70%;
+}
+#GitHubBtn svg {
+  width: 25px;
+  animation: turning-star 8s linear infinite;
 }
 
 #GitHubBtn:hover {
@@ -544,11 +552,39 @@ select {
   color: black;
 }
 
+@keyframes turning-star {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(72deg);
+  }
+  40% {
+    transform: rotate(144deg);
+  }
+  60% {
+    transform: rotate(216deg);
+  }
+  80% {
+    transform: rotate(288deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 /**************************************************Tablet View******************************************/
 @media screen and (min-width: 760px) {
   /************************************************************PROJECT PAGE***********************************************************/
   select {
     width: 35%;
+  }
+  #GitHubBtn {
+    flex-direction: row;
+    height: 40%;
+    width: 20%;
+  }
+  #projectOnePhotoOneImg, #projectOnePhotoTwoImg, #projectTwoPhotoOneImg, #projectTwoPhotoTwoImg {
+    width: 350px;
   }
 }
 /**************************************************LapTop View******************************************/
@@ -592,6 +628,10 @@ select {
   #layoutTwoContentTwo {
     grid-column: 1/2;
     grid-row: 1/2;
+  }
+  #GitHubBtn {
+    height: 40%;
+    width: 22%;
   }
 }
 /***************************************FOOTER*********************************************/

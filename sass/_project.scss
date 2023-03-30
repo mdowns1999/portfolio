@@ -44,8 +44,10 @@ select{
     display:grid;
     grid-template-columns: 1fr;
     padding:20px;
-
+    align-items: center;
 }
+
+
 
 #GitHubBanner
 {
@@ -72,26 +74,36 @@ select{
 }
 
 #projectOnePhotoOneImg, #projectOnePhotoTwoImg, #projectTwoPhotoOneImg, #projectTwoPhotoTwoImg{
-    width:400px;
+    width:250px;
     padding:10px;
     justify-self: center;
 }
 
 #GitHubBtn{
     text-decoration: none;
-    text-align: center;
-    justify-self: center;
-    align-self: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap:10px;
+    // text-align: center;
+    // justify-self: center;
+    // align-self: center;
     border: 2px solid black;
     color:black;
     font-size: 18px;
     border-radius: 15px;
-    padding:20px;
+    padding:10px;
     background-color: #B8B8B8;
-    color:black;
-    width:30%;
-    height: 30%;
-    transition:0.3s;
+    // color:black;
+    width:40%;
+    height: 70%;
+    // transition:0.3s;
+
+    svg {
+        width: 25px;
+        animation: turning-star 8s linear infinite;
+      }
 
 }
 
@@ -102,6 +114,16 @@ select{
 
 
 
+  @keyframes turning-star{
+    0%{transform: rotate(0deg);}
+    20%{transform: rotate(72deg);}
+    40%{transform: rotate(144deg);}
+    60%{transform: rotate(216deg);}
+    80%{transform: rotate(288deg);}
+    100%{transform: rotate(360deg);}
+  }
+
+
 /**************************************************Tablet View******************************************/
 @media screen and (min-width: 760px) {
 
@@ -109,7 +131,16 @@ select{
     select{
         width: 35%;
     }
-        
+    
+    #GitHubBtn{
+       flex-direction: row;
+       height: 40%;
+       width:20%;
+    }
+
+    #projectOnePhotoOneImg, #projectOnePhotoTwoImg, #projectTwoPhotoOneImg, #projectTwoPhotoTwoImg{
+        width:350px;
+    }
 
 }
 
@@ -179,5 +210,10 @@ select{
         grid-column: 1/2;
         grid-row:1/2;
     }
+
+    #GitHubBtn{
+        height: 40%;
+        width:22%;
+     }
 
 }
