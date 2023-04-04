@@ -58,8 +58,9 @@ function projectSelection()
     <option value= 4 >5 Day Weather API</option> 
     <option value= 5 >BYUI Home Page Rebuild</option>
     <option value= 6 >C# ATM</option>
-    <option value= 7 >Data Structures Presentation</option>
-    <option value= 8 >Commerce Website</option>  
+    <option value= 7 >Style Stage</option>
+    <option value= 8 >Data Structures Presentation</option>
+    <option value= 9 >Commerce Website</option>  
     
     </select>`;
 
