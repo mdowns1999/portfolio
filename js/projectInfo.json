@@ -54,6 +54,15 @@
             "GitHubLink":"https://github.com/mdowns1999/BYUIWebsiteRebuildCode"
          },
          {
+            "name":"Style Stage",
+            "overview":"This project was a team project. The purpose of this project was to receive a web page and style it without touching the HTML. This would force each of us to exercise our skills of using various CSS selectors and use our creativity to get the web page to look how we wanted it. We were also not allowed to use any JavaScript according to the rules the creator of web page made. I specifically made the header, footer and nav bar of the page. I also made the bottom part of the page with the three cards and the various buttons around it. Other parts of the page were made by my teammates.",
+            "projectPic1":"images/styleStage.png",
+            "challenges":"One of the challenges with this project was using background images with the :before pseudo class. Specifically making the image adjust based on the size of the page, but also the parent container. I got the idea from the cards based off of a code pen I saw. I liked how it looked so I made something similar to try and pull off the same effect, which I am proud to say worked.",
+            "projectPic2":"images/styleStageWireframe.png",
+            "design":"As a group we decided to do a modern theme. We wanted to approach making a simple page that you would see in the real world. We chose colors and laid out wireframes based on how we wanted everything to look. Any animations that was done on the page came a little later based on what effects we wanted to showcase.",
+            "GitHubLink":"https://github.com/mdowns1999/stylestage-sass-main"
+         },
+         {
             "name": "C# ATM",
             "overview": "Before this project, I knew little about C#.  So I decided to do a simple two week sprint and begin learning the C# language.  I chose to do a simple ATM project so I can work on practicing how to use classes, control flow, loops, and the list container.  To display everything, I chose to do it in the console so I could mainly focus on learning c#.  Since my two eek sprint, I have been taking two C# courses on Udemy to learn C#.",
             "projectPic1": "images/cSharpConsole.png",
