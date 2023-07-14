@@ -71,14 +71,14 @@
             "design": "For this project I used about 5 or 6 classes.  I tried making each class do its own thing.  For example, the transaction class handles any transactions to the accounts. The ATM simply handles the user logging into the Bank and once the login is verified, the Bank class then directs the client to the other classes on where it needs to go.",
             "GitHubLink": "https://github.com/mdowns1999/cSharpATM"
         },        
-         {
-            "name": "Data Structures Presentation",
-            "overview": "This project is a simple presentation on three kinds of data structures. The purpose of this is to demonstrate my understanding of these data structures and show that I can explain it to another individual. The presentation contains diagrams and explanations about each data structure. I also provided code examples, practice problems, and solutions to those practice problems.",
-            "projectPic1": "images/dataStructuresPic.png",
+        {
+            "name": "Angular To-Do App",
+            "overview": "This project was one I did to introduce myself to Angular and become a little more familiar with the framework. With this app, I focused on various Angular topics like services, routing, property binding, forms, etc.  This app is a full-stack app, specifically, a MEAN stack app.  If you check out the GitHub Repo, you will notice how I used Node, Express, and MongoDB. It is a simple app that could be enhanced and added onto.  I simply wanted to focus on what Angular could do.  The Angular portion of this stack was written in Typescript.  I also used Bootstrap 3 for basic styling so I could focus on learning Angular.  I did deploy my backend on Render. Just a note, sometimes the retrieving from the database can be funny if their service has not be accessed in a while.",
+            "projectPic1": "images/angularApp.png",
             "challenges": "One challenge I faced with this project was trying to find a simple way to explain each data structure in a basic and simplified way.  How I did this was I relied on using a lot of examples, diagrams, and charts to help make each data structure easy to understand.",
-            "projectPic2": "images/dataStructureLayout.png",
-            "design": "This project was interesting to design.  I mainly used markdown files with code examples within each example.  I then tried to make it where I provided starting code as well as code solutions to any practice problems I used for each presentation.",
-            "GitHubLink": "https://github.com/mdowns1999/data_structures_presentation"
+            "projectPic2": "images/angularAppWireFrame.png",
+            "design": "For the design of this project, I kept a simple layout to make things easier.  I saw it used by other individuals and applied the same layout.",
+            "GitHubLink": " https://github.com/mdowns1999/todo-list"
         },
         {
             "name": "Commerce Website",
