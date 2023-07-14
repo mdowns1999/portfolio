@@ -59,7 +59,7 @@ function projectSelection()
     <option value= 5 >BYUI Home Page Rebuild</option>
     <option value= 6 >Style Stage</option>
     <option value= 7>C# ATM</option>
-    <option value= 8 >Data Structures Presentation</option>
+    <option value= 8 >Angular To-Do App</option>
     <option value= 9 >Commerce Website</option>  
     
     </select>`;
