@@ -1,0 +1,44 @@
+// @use "theme" as t;
+
+// #ham{
+//     display:block;
+//     width: 35px;
+//     height: 5px;
+//     background-color: black;
+//     position: relative;
+//     margin-top: 1%;
+//     transition: 0.5s;
+
+//     &:before{
+//     content: '';
+//     position:absolute;
+//     width: 35px;
+//     height: 5px;
+//     background-color: black;
+//     top: -10px;
+//     transition: 0.5s;
+
+//     }
+
+//     &:after{
+//     content: '';
+//     position:absolute;
+//     width: 35px;
+//     height: 5px;
+//     background-color: black;
+//     top: 10px;
+//     transition: 0.5s;
+
+//     }
+
+//     &:hover::before, &:hover::after{
+//         color: t.$hover-color;
+//         transition-duration: 0.2s;
+
+//     }
+
+//     &:hover{
+//         color: t.$hover-color;
+//         transition-duration: 0.2s;
+//     }
+//   }

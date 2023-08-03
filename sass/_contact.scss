@@ -13,18 +13,44 @@
     padding:20px;
 }
 
-#contactInfo{
-    font-size: 19px;
-    ul li{
-        margin: 10px 0;
+#contactInfo #contactIcons{
+    display:flex;
+    flex-direction: column;
+    padding:10px;
+    align-items: center;
+    .iconBox{
+        padding:10px;
+        margin: 10px;
     }
 }
+
+.logo{
+    width:60px; 
+    border-radius: 100%;
+    transition:0.3s;
+
+    &:hover{
+        background-color: t.$hover-color;
+    }
+}
+
+#email{
+    text-align: center;
+}
+
 
 /**************************************************Tablet View******************************************/
 @media screen and (min-width: 760px) {
         /*******************************************COMTACT PAGE**********************************/
-        #submit{
-            margin-left: 130px;
+        #contactInfo #contactIcons{
+            flex-direction: row;
+            justify-content: space-evenly;
+            
+            
+        }
+
+        .logo{
+            width:70px;
         }
 
 
@@ -43,6 +69,14 @@
     #submit{
         margin-left:175px;
     }
+
+    // #contactInfo #contactIcons{
+    //     flex-direction: row;
+    //     justify-content: space-evenly;
+        
+    // }
+
+
 
 
 }
